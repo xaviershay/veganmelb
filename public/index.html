@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <title>Melbourne Vegan</title>
+    <style>
+      * { margin: 0; padding: 0; }
+
+      body { font: 16px/1.5 "Helvetica Neue", Arial, sans-serif; font-weight: 200;
+        background-color: #aaa}
+      b { font-weight: 600}
+    
+      #column {
+ width: 750px; margin: 0 auto; position: relative;
+        background-color: white;
+ }
+      abbr, article, aside, canvas, figure, footer, header, hgroup, nav, section { display: block; }
+
+      #social {
+        float: left;
+        }
+
+      #availability {
+        clear: both;
+        }
+
+      header {
+        background-image: url("images/melbourne-crop-1.jpg");
+        background-size: 100%;
+        height: 100px;
+        position:relative;
+        /* http://www.flickr.com/photos/chrisschoenbohm/4666273930/sizes/l/in/photostream/ */
+        }
+
+      header h1 {
+        position: absolute;
+        top: 20px;
+        
+        color: white;
+        width: 98%;
+        padding-left: 2%;
+        background-color: rgba(255,255,255,0.3);
+      }
+
+      section {
+        font-family: georgia;
+        margin: 10px;
+        }
+
+      section#intro {
+        font-size: 120%;
+      }
+      section#social {
+        width: 50%;
+      }
+      h1, h2 {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+      em {
+        background-color:lemonChiffon;
+        font-style: normal;
+      }
+    </style>
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAAmVf_nxuq3eASD-mLavbuGBSkxrViZM90Udi2tjU9qFO9Rj1WuBRKHjSw5q7TIMYJMqMAMBS6QjPjlA" type="text/javascript"></script>
+  </head>
+  <body onload="initialize()" onunload="GUnload()">
+    <div id='column'>
+    <header>
+      <h1>Vegan Melbourne</h1>
+    </header>
+
+    <section id='intro'>
+      <p>Vegan? In Melbourne, Australia? <em>You're in good company.</em>
+      Melbourne is a fantastic city to be Vegan in. There are plenty of great places to eat, markets, and community events happening every week.</p>
+    </section>
+
+    <section id='social'>
+      <h1>Social</h1>
+      <p>Melbourne has a vibrant Vegan social scene, with regular dinners, drinks, discussion groups, and of course picnics! Everyone is welcome, whether you're a lifer or just thinking about becoming Vegan.</p>
+      <h2>Upcoming Events</h2>
+      <ol>
+        <li>
+          7:00pm, Friday, 25th March <a href='#'>Monthly Vegan Drinks</a>
+        </li>
+        <li>
+          6:30pm, Thursday, 31st March <a href='#'>Popup Dinner</a>
+        </li>
+      </ol>
+    </section>
+
+    <section id='activism'>
+      <h1>Activism</h1>
+      <p>ALV, AA, stop horse racing, medical</p>
+    </section>
+
+    <section id='availability'>
+      <h1>Availability</h1>
+      <p>Embed map</p>
+      <div id="map_canvas" style="width: 100%; height: 500px"></div>
+    </section>
+    </div>
+    <script>
+      var map = new GMap2(document.getElementById("map_canvas"));
+      map.setCenter(new GLatLng(-37.813611, 144.963056), 13);
+      map.setUIToDefault();
+// Add 10 markers to the map at random locations
+  var bounds = map.getBounds();
+  var southWest = bounds.getSouthWest();
+  var northEast = bounds.getNorthEast();
+  var lngSpan = northEast.lng() - southWest.lng();
+  var latSpan = northEast.lat() - southWest.lat();
+  for (var i = 0; i < 10; i++) {
+    var point = new GLatLng(southWest.lat() + latSpan * Math.random(),
+        southWest.lng() + lngSpan * Math.random());
+    map.addOverlay(new GMarker(point));
+  }
+      
+    </script>
+    
+  </body>
+</html>
