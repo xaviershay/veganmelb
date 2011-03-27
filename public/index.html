@@ -54,13 +54,39 @@
       section#social {
         width: 50%;
       }
-      h1, h2 {
+      section#activism {
+        width: 40%;
+        float: left;
+      }
+      section h1, section h2 {
         font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 120%;
+      }
+      section h2 {
+        font-size: 100%;
+      }
+      section p {
+        margin-bottom: 1em;
       }
       em {
         background-color:lemonChiffon;
         font-style: normal;
       }
+      a, a:visited {
+        color: black;
+      }
+      span.time {
+        display: block;
+        width: 165px;
+        float: left;
+      }
+      li {
+        list-style-type: none;
+        clear: both;
+        }
+      ol {
+        margin-bottom: 1em;
+        }
     </style>
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -81,26 +107,29 @@
 
     <section id='social'>
       <h1>Social</h1>
-      <p>Melbourne has a vibrant Vegan social scene, with regular dinners, drinks, discussion groups, and of course picnics! Everyone is welcome, whether you're a lifer or just thinking about becoming Vegan.</p>
-      <h2>Upcoming Events</h2>
       <ol>
         <li>
-          7:00pm, Friday, 25th March <a href='#'>Monthly Vegan Drinks</a>
+          <span class='time'>19:00, Friday 25/3</span><a href='#'>Monthly Vegan Drinks</a>
         </li>
         <li>
-          6:30pm, Thursday, 31st March <a href='#'>Popup Dinner</a>
+          <span class='time'>18:30, Thursday 31/3</span><a href='#'>Popup Dinner</a>
         </li>
+        <li>
+          <span class='time'>18:30, Saturday 31/12</span><a href='#'>Popup Dinner</a>
+        </li>
+        <li><a href="#">More upcoming events&hellip;</a></li>
       </ol>
+      <p>Melbourne has a <em>vibrant Vegan social scene</em>, with regular dinners, drinks, discussion groups, and of course picnics! Everyone is welcome, whether you're a lifer or just thinking about becoming Vegan. There are also a number of us <a href='#'>blogging</a> and on <a href='#'>Twitter</a>.</p>
     </section>
-
     <section id='activism'>
       <h1>Activism</h1>
-      <p>ALV, AA, stop horse racing, medical</p>
+      <p>Melbourne hosts a <a href="#">large number of activist organisations</a>, all working together to cover everything from outreach to animal rescue.</p>
+      <p>If you are new to Veganism or the city, we run a small <a href='http://www.vegan-month.com'>vegan mentoring group</a> most months to help you get started.</p>
     </section>
 
+
     <section id='availability'>
-      <h1>Availability</h1>
-      <p>Embed map</p>
+      <h1>Places to shop and eat</h1>
       <div id="map_canvas" style="width: 100%; height: 500px"></div>
     </section>
     </div>
