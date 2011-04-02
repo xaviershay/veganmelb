@@ -88,12 +88,44 @@
       ol {
         margin-bottom: 1em;
         }
+
+      #availability {
+        position: relative;
+        margin-bottom: 0.5em;
+        overflow: hidden;
+      }
+
+      #availability article {
+        position: absolute;
+        width: 220px;
+        bottom: 0;
+        right: -255px;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-top-left-radius: 15px;
+        background-color: rgba(0,0,0,0.8);
+      }
+        
+      #availability article p {
+        margin-bottom: 0.5em;
+      }
+
+      .address, .phone {
+        font-size: 12px;
+        display: block;
+      }
     </style>
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAAmVf_nxuq3eASD-mLavbuGBSkxrViZM90Udi2tjU9qFO9Rj1WuBRKHjSw5q7TIMYJMqMAMBS6QjPjlA" type="text/javascript"></script>
+<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false&key=ABQIAAAAmVf_nxuq3eASD-mLavbuGBSkxrViZM90Udi2tjU9qFO9Rj1WuBRKHjSw5q7TIMYJMqMAMBS6QjPjlA">
+</script>
+
   </head>
   <body onload="initialize()" onunload="GUnload()">
     <div id='column'>
@@ -131,25 +163,88 @@
 
     <section id='availability'>
       <h1>Places to shop and eat</h1>
-      <div id="map_canvas" style="width: 100%; height: 500px"></div>
+      <div id="map_canvas" style="width: 100%; height: 400px"> </div>
+      <article id='placeDetails'>
+        <h1></h1>
+        <p></p>
+        <span class='address'></span>
+        <span class='phone'></span>
+      </article>
     </section>
+    <br />
     </div>
     <script>
-      var map = new GMap2(document.getElementById("map_canvas"));
-      map.setCenter(new GLatLng(-37.813611, 144.963056), 13);
-      map.setUIToDefault();
-// Add 10 markers to the map at random locations
-  var bounds = map.getBounds();
-  var southWest = bounds.getSouthWest();
-  var northEast = bounds.getNorthEast();
-  var lngSpan = northEast.lng() - southWest.lng();
-  var latSpan = northEast.lat() - southWest.lat();
-  for (var i = 0; i < 10; i++) {
-    var point = new GLatLng(southWest.lat() + latSpan * Math.random(),
-        southWest.lng() + lngSpan * Math.random());
-    map.addOverlay(new GMarker(point));
-  }
-      
+      function initialize() {
+        var melbourne = new google.maps.LatLng(-37.813611, 144.963056);
+        var mapOptions = {
+          zoom: 12,
+          center: melbourne,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+/*
+        var gx = new google.maps.KmlLayer("http://dl.dropbox.com/u/3120508/melbourne-vegan.kml");
+        gx.setMap(map);
+        google.maps.event.addListener(gx, 'click', function(event) {        
+          console.log(event.featureData);
+        });
+        */
+
+        var places = 
+[{"name":"Las Vegan Cafe","location":{"lat":-37.8075485,"lng":144.9828862},"address":"22 Smith St, Fitzroy","phoneNumber":"(03) 9417 6935","description":"Not often open, but well worth a visit when it is. The only 100% vegan restaurant in Melbourne.","type":"Recommended"},{"name":"Vegie Bar","location":{"lat":-37.795873,"lng":144.979129},"address":"380 Brunswick St, Fitzroy","phoneNumber":"(03) 1111 1111","description":"Always packed, big menu, big meals, well priced.","type":"Recommended"},{"name":"Trippy Taco","location":{"lat":-37.8069719,"lng":144.9829813},"address":"48 Smith St, Fitzroy","phoneNumber":"(03) 9415 7711","description":"Burritos, nachos, and margheritas.","type":"Recommended"},{"name":"Radical Grocery Store","location":{"lat":-37.7751324,"lng":144.9599576},"address":"6 Wilson Ave, Brunswick","phoneNumber":"(03) 9077 5512","description":"All your vegan shopping needs.","type":"Shopping"},{"name":"Organic Wholefoods","location":{"lat":-37.800642,"lng":144.983683},"address":"277 Smith Street, Fitzroy","phoneNumber":"(03) 9384 0288","description":"All your vegan shopping needs.","type":"Shopping"},{"name":"Metta Scents","location":{"lat":-37.8492436,"lng":144.9917059},"address":"111 Greville Street, Prahran","phoneNumber":null,"description":"Sells ethical, sustainably produced vegan incense from all over the word.","type":"Gift"},{"name":"Lord of The Fries","location":{"lat":-37.817412,"lng":144.964826},"address":"9a/26 Elizabeth Street, Melbourne","phoneNumber":null,"description":"Hot Chips and vegan burgers. You either love them or you hate them.","type":"Fast Food"},{"name":"Lord of The Fries","location":{"lat":-37.818175,"lng":144.9649698},"address":"Flinders St Station, Melbourne","phoneNumber":null,"description":"Hot Chips and vegan burgers. You either love them or you hate them.","type":"Fast Food"},{"name":"Lord of The Fries","location":{"lat":-37.8522079,"lng":144.9934049},"address":"170 Chapel St, Windsor","phoneNumber":null,"description":"Hot Chips and vegan burgers. You either love them or you hate them.","type":"Fast Food"},{"name":"Om Vegetarian","location":{"lat":-37.817299,"lng":144.964882},"address":"1/28-32 Elizabeth Street, Melbourne","phoneNumber":"(03) 9663 0062","description":"All you can eat Indian for only $6.50. Perhaps the cheapest meal in Melbourne.","type":"Recommended"},{"name":"Vegan Wares","location":{"lat":-37.805971,"lng":144.983308},"address":"78 Smith Street, Collingwood","phoneNumber":null,"description":"Vegan footware and accessories: shoes, belts, and wallets.","type":"Clothing"},{"name":"Vic Market","location":{"lat":-37.8064861,"lng":144.9609045},"address":"55 Victoria St, Melbourne","phoneNumber":"(03) 9320 5822","description":"Plenty of organic and bulk produce. Open everyday except Monday and Wednesday.","type":"Market"}];
+
+        var currentPlace = null;
+
+        $(places).each(function() {
+          var place = this;
+          var point = new google.maps.LatLng(place.location.lat, place.location.lng);
+          var icons = {
+            'Recommended': "http://google-maps-icons.googlecode.com/files/restaurant.png",
+            'Shopping':    "http://google-maps-icons.googlecode.com/files/supermarket.png",
+            'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",
+            'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
+            'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
+            'Market':     "http://google-maps-icons.googlecode.com/files/market.png"
+          }
+          var marker = new google.maps.Marker({
+            position: point,
+            map:      map,
+            title:    place.title,
+            icon:     icons[place.type]
+          });
+          google.maps.event.addListener(marker, 'click', function() {
+            var clickedPlace = place;
+            var info = $('#placeDetails');
+
+            if (currentPlace) {
+              info.animate(
+                {right: "-255px"}, 
+                {complete: function() {
+                  if (clickedPlace == currentPlace) {
+                    currentPlace = null;
+                  } else {
+                    currentPlace = clickedPlace;
+                    $('h1', info).text(clickedPlace.name);
+                    $('p',  info).text(clickedPlace.description);
+                    $('.address',  info).text(clickedPlace.address);
+                    $('.phone',  info).text(clickedPlace.phoneNumber);
+                    info.animate({right: "0"});
+                  }
+                }}
+              )
+            } else {
+              currentPlace = clickedPlace;
+              $('h1', info).text(clickedPlace.name);
+              $('p',  info).text(clickedPlace.description);
+              $('.address',  info).text(clickedPlace.address);
+              $('.phone',  info).text(clickedPlace.phoneNumber);
+              info.animate({right: "0"});
+            }
+          });
+        });
+      }
     </script>
     
   </body>
