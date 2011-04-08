@@ -1,0 +1,710 @@
+[
+  {
+    "name": "Name",
+    "location": {
+      "lng": "Lng",
+      "lat": "Lat"
+    },
+    "address": "Address",
+    "phoneNumber": "Phone",
+    "description": "Description",
+    "url": "URL",
+    "type": "Type"
+  },
+  {
+    "name": "Radical Grocery Store",
+    "location": {
+      "lng": 144.9599576,
+      "lat": -37.7751324
+    },
+    "address": "6 Wilson Ave, Brunswick",
+    "phoneNumber": "(03) 9077 5512",
+    "description": "All your vegan shopping needs.",
+    "url": "http://radicalgrocery.com",
+    "type": "Shopping"
+  },
+  {
+    "name": "Organic Wholefoods",
+    "location": {
+      "lng": 144.983683,
+      "lat": -37.800642
+    },
+    "address": "277 Smith Street, Fitzroy",
+    "phoneNumber": "(03) 9384 0288",
+    "description": "All your vegan shopping needs.",
+    "url": "",
+    "type": "Shopping"
+  },
+  {
+    "name": "Metta Scents",
+    "location": {
+      "lng": 144.9917059,
+      "lat": -37.8492436
+    },
+    "address": "111 Greville Street, Prahran",
+    "phoneNumber": null,
+    "description": "Sells ethical, sustainably produced vegan incense from all over the word.",
+    "url": "http://mettascents.com",
+    "type": "Gift"
+  },
+  {
+    "name": "Vegan Wares",
+    "location": {
+      "lng": 144.983308,
+      "lat": -37.805971
+    },
+    "address": "78 Smith Street, Collingwood",
+    "phoneNumber": null,
+    "description": "Vegan footware and accessories: shoes, belts, and wallets.",
+    "url": "http://veganwares.com",
+    "type": "Clothing"
+  },
+  {
+    "name": "Vic Market",
+    "location": {
+      "lng": 144.9609045,
+      "lat": -37.8064861
+    },
+    "address": "55 Victoria St, Melbourne",
+    "phoneNumber": "(03) 9320 5822",
+    "description": "Plenty of organic and bulk produce. Open everyday except Monday and Wednesday.",
+    "url": "http://qvm.com.au",
+    "type": "Market"
+  },
+  {
+    "name": "Aum Shanti Gallery & Vegetarian Cafe",
+    "location": {
+      "lng": "145.121704",
+      "lat": "-38.142353"
+    },
+    "address": "439 Nepean Highway, Frankston",
+    "phoneNumber": null,
+    "description": "Selection of organic vegetarian/vegan food from light breakfasts, lunch, snacks and desserts. Top picks are the vegan burger and home-made cakes. Everything under $10",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Beangreen Vegetarian Cafe",
+    "location": {
+      "lng": "144.991882",
+      "lat": "-37.846359"
+    },
+    "address": "Shop 804, Prahran Market, 163 Commercial Road, South Yarra",
+    "phoneNumber": null,
+    "description": "Organic, wheat/gluten-free and vegan options, with a variety of influences from Africa, Mediterranean and Asian styles of food. Cheap prices.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Bo De Trai Vegetarian Restaurant",
+    "location": {
+      "lng": "144.902084",
+      "lat": "-37.799931"
+    },
+    "address": "94 Hopkins Street, Footscray",
+    "phoneNumber": null,
+    "description": "Run by Buddhist monks, the food is Vietnamese style with quite a lot of mock meat dishes, made from either gluten, eggplant or soy. Everything is vegetarian but you will need to check if it’s vegan. Very reasonably priced.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Chan House Healthy Vegetarian Option",
+    "location": {
+      "lng": "144.96022",
+      "lat": "-37.815804"
+    },
+    "address": "Shop 10, 422 Little Collins Street (situated under the Cambridge International School in a mini food court in the CBD) Ph: 0402 798",
+    "phoneNumber": null,
+    "description": "Asian style vegetarian take-away that also caters for vegans (just check which dishes are vegan). Specialises in favourite Asian take-away dishes such as sweet and sour \"pork”, bbq \"pork” and \"honey chicken”. Well priced but cash only.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Crossways Food for Life",
+    "location": {
+      "lng": "144.966049",
+      "lat": "-37.814808"
+    },
+    "address": "123 Swanston Street, Melbourne",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.iskcon.net.au/food/crossways",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Enlightened Cuisine Vegetarian Restaurant",
+    "location": {
+      "lng": "144.960449",
+      "lat": "-37.824966"
+    },
+    "address": "113 Queens Bridge Street, Southbank",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.ecuisine.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Friends of the Earth Cafe",
+    "location": {
+      "lng": "144.984253",
+      "lat": "-37.799911"
+    },
+    "address": "312 Smith Street, Collingwood",
+    "phoneNumber": null,
+    "description": null,
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Global Vegetarian",
+    "location": {
+      "lng": "145.040512",
+      "lat": "-37.903744"
+    },
+    "address": "499 North Road, Ormond",
+    "phoneNumber": null,
+    "description": "International cuisine mostly Asian influenced. They serve hearty pieces of vegetables and tofu in a variety of pasta, rice and noodle dishes. Not all dishes are vegan. Their dim sims are a must try! They offer eat in with BYO and takeaway. Prices under $10.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Glo Health",
+    "location": {
+      "lng": "145.003647",
+      "lat": "-37.884838"
+    },
+    "address": "358 Glenhuntly Road, Elsternwick",
+    "phoneNumber": null,
+    "description": "This health store offers a number of vegan and some gluten free dishes as their small café or for takeaway. Dishes range from salads and wraps to lentil shepherds pie (which rocks and you can buy it in bulk to take home and put in the freezer for when you’re feeling lazy). There are also some vegan baked items available, just check. The shop also sells some vegan products such as vegan cheese and cream. All dishes under $10.",
+    "url": "http://www.glohealth.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Gopal's Vegetarian Restaurant",
+    "location": {
+      "lng": "144.965866",
+      "lat": "-37.814365"
+    },
+    "address": "139 Swanston Street, CBD",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.iskcon.net.au/food/gopals",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Grumpy's Green",
+    "location": {
+      "lng": "144.982941",
+      "lat": "-37.805302"
+    },
+    "address": "125 Smith Street, Fitzroy",
+    "phoneNumber": null,
+    "description": null,
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Gujarati Rasoi",
+    "location": {
+      "lng": "145.035431",
+      "lat": "-37.823044"
+    },
+    "address": "628 Glenferrie Road, Hawthorn.",
+    "phoneNumber": null,
+    "description": "Traditional Indian cuisine from the vegetarian state of Gujarat. It’s quick and cheap with a lot of the usual Indian vego fair such as delicious curries, rice, breads, samosas and halva. Check that it’s vegan before ordering.",
+    "url": "http://www.gujaratirasoi.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Gujarati Rasoi",
+    "location": {
+      "lng": "145.005936",
+      "lat": "-37.819458"
+    },
+    "address": "432 Bridge Road, Richmond",
+    "phoneNumber": null,
+    "description": "Traditional Indian cuisine from the vegetarian state of Gujarat. It’s quick and cheap with a lot of the usual Indian vego fair such as delicious curries, rice, breads, samosas and halva. Check that it’s vegan before ordering.",
+    "url": "http://www.gujaratirasoi.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Gujju's Cafe & Chaat House",
+    "location": {
+      "lng": "145.038589",
+      "lat": "-37.823128"
+    },
+    "address": "424 Burwood Road, Hawthorn East.",
+    "phoneNumber": null,
+    "description": "Lots of vegan options here! Traditional range of Chaats (small dishes meant for sharing) from the Gujarat region of India which is known for spicy food. With over 40 varieties available, as well as Thalis and all you can eat vegetable curries, there is plenty to choose from. Some dishes contain yoghurt so just check before you order.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Gujju's Cafe & Chaat House",
+    "location": {
+      "lng": "145.049469",
+      "lat": "-37.876003"
+    },
+    "address": "Shop 1, 141 Waverley Road, East Malvern",
+    "phoneNumber": null,
+    "description": "Lots of vegan options here! Traditional range of Chaats (small dishes meant for sharing) from the Gujarat region of India which is known for spicy food. With over 40 varieties available, as well as Thalis and all you can eat vegetable curries, there is plenty to choose from. Some dishes contain yoghurt so just check before you order.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Lakshmi Vilas Gourmet Indian Vegetarian Cafe",
+    "location": {
+      "lng": "145.215729",
+      "lat": "-37.989803"
+    },
+    "address": "Shop 5, 31 Pulteney Street, Dandenong",
+    "phoneNumber": null,
+    "description": "Lakshmi Vilas is home of the South Indian tiffin (Indian snacks), with the food being a delicious mix of South and North Indian vegetarian cooking. The website has a menu and there is various special combo meal offers and thalis combining rice with several curries, or masala dosa with iddli and vada. You will need to call beforehand and arrange a vegan meal though.",
+    "url": "http://www.lakshmivilas.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Las Vegan Bakery & Cafe",
+    "location": {
+      "lng": "144.982971",
+      "lat": "-37.807549"
+    },
+    "address": "22 Smith Street, Collingwood.",
+    "phoneNumber": null,
+    "description": "100% all vegan, no need to check menus! The servings are generous and delicious. Favourites include burgers, chilli, calzones, rice balls, noodles and their hot chips are the best in town. If you’re there when they have rawvioli on special then it’s definitely worth trying. They also now offer breakfast specials such as scrambled tofu and tempacon, plus a range of cakes, muffins and Mr Nice Guy Cupcakes. Very reasonably priced.",
+    "url": "http://www.lasvegan.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Trippy Taco",
+    "location": {
+      "lng": "144.983124",
+      "lat": "-37.806969"
+    },
+    "address": "48a Smith Street, Collingwood",
+    "phoneNumber": null,
+    "description": null,
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "The Vegie Bar",
+    "location": {
+      "lng": "144.979141",
+      "lat": "-37.795845"
+    },
+    "address": "378-380 Brunswick Street, Fitzroy",
+    "phoneNumber": null,
+    "description": "Somewhat of an institution in Melbourne – heaps of vegan options in a more party atmosphere. Prices range from $2 - $15 and the specials board always have some tasty new stir fry’s or burgers.",
+    "url": "http://www.vegiebar.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Veggie Kitchen",
+    "location": {
+      "lng": "144.99115",
+      "lat": "-37.768074"
+    },
+    "address": "159 St Georges Road, Northcote",
+    "phoneNumber": null,
+    "description": "Don't let the late seventies Chinese Restaurant decor put you off this place, the food is to die for. The banquet, at $28, is a little pricey but worth every single cent. A completely unique dining experience - kind of like Taiwanese Tapas. The food is about 99% vegan with only one dish on the menu having cheese on top, but you can request this dish to be vegan. The owner is very friendly and will take the time to explain what you are eating and the health benefits of each dish. In this way, dinner becomes a cultural experience as you learn about Taiwanese belief systems around food. They also cater for gluten free.",
+    "url": "http://www.veggiekitchen.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Yong Green Food",
+    "location": {
+      "lng": "144.978958",
+      "lat": "-37.794373"
+    },
+    "address": "421 Brunswick Street, Fitzroy",
+    "phoneNumber": null,
+    "description": "Yong Green Food is a funky little establishment serving a delicious array of Korean inspired dishes. Most of the dishes are vegan, however there are some drinks and desserts which are not, i.e. may contain honey or yoghurt. There is a great raw menu but it's generally hard to go past the cooked dishes. The Pho is one of the best in town. The smoothies are to die for and the raw \"cheese\"cakes are delicious. But if you can’t fit in a whole piece of cheesecake after your main course, the green tea ganache is a delightful little surprise for dessert. The atmosphere is welcoming and the staff are really sweet making this place a favourite of vegans and non-vegans alike. The prices range from $3 - $15.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Moroccan Soup Bar",
+    "location": {
+      "lng": "144.9823",
+      "lat": "-37.78487"
+    },
+    "address": "183 St Georges Road, Fitzroy North",
+    "phoneNumber": null,
+    "description": "Vegetarian restaurant that serves Egyptian/North African cuisine (you will have to let your waiter know that you require vegan dishes as they can be quite dairy heavy). No written menu so the waiter will let you know what’s on offer – the banquets are great value which is usually dips with bread, followed by the main and a dessert with coffee. Prices average from around $10 for mains or $18 for the banquets.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Soulfood Café",
+    "location": {
+      "lng": "144.98381",
+      "lat": "-37.800735"
+    },
+    "address": "273 Smith Street, Fitzroy",
+    "phoneNumber": null,
+    "description": "Healthy organic food with a rockin all day breakfast menu. The usual cafe favourites such as wraps and cakes, all to enjoy in a funky cafe setting. Average range between $5 - $15.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Lentil As Anything",
+    "location": {
+      "lng": "144.981033",
+      "lat": "-37.870403"
+    },
+    "address": "41 Blessington Street, St Kilda.",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.lentilasanything.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Lentil As Anything",
+    "location": {
+      "lng": "144.896515",
+      "lat": "-37.799587"
+    },
+    "address": "233 Barkly Street, Footscray.",
+    "phoneNumber": null,
+    "description": "Global, organic vegetarian and vegan food based on a 'pay as you feel' philosophy. You serve yourself from bain maries. Dishes include curries, stir fries and pasta. Dishes are labelled if they are vegetarian or vegan.",
+    "url": "http://www.lentilasanything.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Lentil As Anything",
+    "location": {
+      "lng": "145.004913",
+      "lat": "-37.802902"
+    },
+    "address": "Abbotsford Convent - 1 St Heliers Street, Abbotsford.",
+    "phoneNumber": null,
+    "description": "Global, organic vegetarian and vegan food based on a 'pay as you feel' philosophy. You serve yourself from bain maries. Dishes include curries, stir fries and pasta. Dishes are labelled if they are vegetarian or vegan.",
+    "url": "http://www.lentilasanything.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "144.967422",
+      "lat": "-37.81789"
+    },
+    "address": "Shop 5, Flinders Street Station, CBD.",
+    "phoneNumber": null,
+    "description": "If you a really feeling like a great big delicious burger and chips then this place is for you. Stacks of different sauces for the fries and onion rings (check with ones are vegan), a couple of tasty burgers and mini burgers (the spicy burger with jalapenos is great!) There is even vegan cheese for the burgers if you ask for it. They also do \"nuggets” and vegan cookies to top it all off. Prices are $3 - $9.",
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "144.965027",
+      "lat": "-37.817989"
+    },
+    "address": "Shop 9A, 26 Elizabeth Street (Cnr Flinders Street), Melbourne.",
+    "phoneNumber": null,
+    "description": "If you a really feeling like a great big delicious burger and chips then this place is for you. Stacks of different sauces for the fries and onion rings (check with ones are vegan), a couple of tasty burgers and mini burgers (the spicy burger with jalapenos is great!) There is even vegan cheese for the burgers if you ask for it. They also do \"nuggets” and vegan cookies to top it all off. Prices are $3 - $9.",
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "144.96373",
+      "lat": "-37.810158"
+    },
+    "address": "Melbourne Central, Cnr LaTrobe &amp; Swanston Streets (Knox Lane), CBD.",
+    "phoneNumber": null,
+    "description": "If you a really feeling like a great big delicious burger and chips then this place is for you. Stacks of different sauces for the fries and onion rings (check with ones are vegan), a couple of tasty burgers and mini burgers (the spicy burger with jalapenos is great!) There is even vegan cheese for the burgers if you ask for it. They also do \"nuggets” and vegan cookies to top it all off. Prices are $3 - $9.",
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "145.082901",
+      "lat": "-37.88604"
+    },
+    "address": "Chadstone Shopping Centre (near cinemas), 1341 Dandenong Road, Chadstone.",
+    "phoneNumber": null,
+    "description": "If you a really feeling like a great big delicious burger and chips then this place is for you. Stacks of different sauces for the fries and onion rings (check with ones are vegan), a couple of tasty burgers and mini burgers (the spicy burger with jalapenos is great!) There is even vegan cheese for the burgers if you ask for it. They also do \"nuggets” and vegan cookies to top it all off. Prices are $3 - $9.",
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "144.993378",
+      "lat": "-37.852123"
+    },
+    "address": "170 Chapel Street, Windsor",
+    "phoneNumber": null,
+    "description": "If you a really feeling like a great big delicious burger and chips then this place is for you. Stacks of different sauces for the fries and onion rings (check with ones are vegan), a couple of tasty burgers and mini burgers (the spicy burger with jalapenos is great!) There is even vegan cheese for the burgers if you ask for it. They also do \"nuggets” and vegan cookies to top it all off. Prices are $3 - $9.",
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Lord of the Fries",
+    "location": {
+      "lng": "145.030502",
+      "lat": "-37.739517"
+    },
+    "address": "Shop K38, Northland Shopping Centre (cinema entrance), 50 Murray Road, East Preston.",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.lordofthefries.com.au",
+    "type": "Fast Food"
+  },
+  {
+    "name": "Loving Hut Melbourne",
+    "location": {
+      "lng": "144.999252",
+      "lat": "-37.810574"
+    },
+    "address": "Shop 10, 242 Victoria Street, Richmond",
+    "phoneNumber": null,
+    "description": "Loving Hut is part of an immensely popular chain of vegan restaurants owned by the Supreme Master. The menu includes international dishes from India, Malaysia, Italy, China as well as modern fusion cuisine with tofu or mock meats such as dim sims, laksa, curries and stir fries. The vegan cheesecake is also a standout. Prices range from $4 - $11.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Melbourne University Food Co-op",
+    "location": {
+      "lng": "144.960968",
+      "lat": "-37.796906"
+    },
+    "address": "1st Floor, Union House, Melbourne University, Parkville",
+    "phoneNumber": null,
+    "description": "Strapped for cash? The co-op has lots of cheap, tasty mostly vegan food. Good lunch options such as pies and other savoury treats. Diners are asked to bring their own containers to minimize waste. Prices range between $2 to $6 and there is also the option of buying healthy food in bulk such as baking ingredients, lentils and tofu.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Monk Bodhi Dharma",
+    "location": {
+      "lng": "144.990845",
+      "lat": "-37.868324"
+    },
+    "address": "Rear, 202 Carlisle Street (down the alleyway), Balaclava",
+    "phoneNumber": null,
+    "description": "This small restaurant offers many vegan (and organic) options and has a great range of coffees. The menu ranges from baguettes, to French toast to spicy stews. They also offer some vegan muffins and cakes. Occasionally they offer a breakfast degustation menu, check website for details. Prices between $1 - $9.",
+    "url": "http://www.monkbodhidharma.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Mr Natural Vegetarian PIzza",
+    "location": {
+      "lng": "144.98053",
+      "lat": "-37.870193"
+    },
+    "address": "223 Barkly Street, St Kilda",
+    "phoneNumber": null,
+    "description": "Pizza bases are made with organic wholemeal flour with a gluten free option.  Pizzas range from Classic and Gourmet to 'Massive'.  All pizzas can be made vegan.  There are daily specials and delivery is possible.  Pizzas start from $11.50.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Mr Natural Vegetarian PIzza",
+    "location": {
+      "lng": "144.979279",
+      "lat": "-37.792732"
+    },
+    "address": "469 Brunswick Street, Firzroy",
+    "phoneNumber": null,
+    "description": "Pizza bases are made with organic wholemeal flour with a gluten free option.  Pizzas range from Classic and Gourmet to 'Massive'.  All pizzas can be made vegan.  There are daily specials and delivery is possible.  Pizzas start from $11.50.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Munster Haus",
+    "location": {
+      "lng": "144.987411",
+      "lat": "-37.778965"
+    },
+    "address": "371 St Georges Road, Fitzroy North,",
+    "phoneNumber": null,
+    "description": "Vegetarian/vegan menu offering a variety of salads, soups, curries, tofu dishes and desserts in the bain-marie (vegan options are clearly marked). Prices to suit any budget as you pick your plate size (between $8 - $14).",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Nostralis Wholemeal Pizza",
+    "location": {
+      "lng": "145.024826",
+      "lat": "-37.872818"
+    },
+    "address": "55 Hawthorn Road, Caulfield.",
+    "phoneNumber": null,
+    "description": "Healthy pizzas made with wholemeal bases and mostly organic veggies. There’s a great range of pizzas to choose from and you can ask for vegan cheese! Pizzas around $15.",
+    "url": "http://www.nostralis.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Om Vegetarian",
+    "location": {
+      "lng": "144.964737",
+      "lat": "-37.81739"
+    },
+    "address": "Level 1, 28 Elizabeth Street, Melbourne.",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.omvegetarian.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Plush Pizza",
+    "location": {
+      "lng": "145.025558",
+      "lat": "-37.821331"
+    },
+    "address": "85 Burwood Road, Hawthorn VIC 3122,",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.plushpizza.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Realfoods (RMIT University Student Union cafe)",
+    "location": {
+      "lng": "144.96405",
+      "lat": "-37.808586"
+    },
+    "address": "RMIT University City Campus Food Court, Building 8, Level 4, 360 Swanston Street, CBD",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.su.rmit.edu.au/departments/rusu-realfoods",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Shakahari Vegetarian Restaurant",
+    "location": {
+      "lng": "144.967834",
+      "lat": "-37.798931"
+    },
+    "address": "201-203 Faraday Street, Carlton",
+    "phoneNumber": null,
+    "description": "Shakahari is the oldest vegetarian restaurant in Melbourne with dishes influenced by Japanese, Chinese and Thai cuisine. Their ‘Avocado Magic’ signature starter is a must try! Most dishes are under $20 and vegans are well catered for with several gluten free options too.",
+    "url": "http://www.shakahari.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Invita Food for Life Cafe",
+    "location": {
+      "lng": "144.958694",
+      "lat": "-37.807343"
+    },
+    "address": "",
+    "phoneNumber": null,
+    "description": null,
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Soulmama",
+    "location": {
+      "lng": "144.971741",
+      "lat": "-37.865383"
+    },
+    "address": "10-18 Jacka Boulevard, St Kilda Sea Baths, St Kilda",
+    "phoneNumber": null,
+    "description": null,
+    "url": "http://www.soulmama.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Tofu Shop International ",
+    "location": {
+      "lng": "144.992493",
+      "lat": "-37.817955"
+    },
+    "address": "78 Bridge Road, Richmond",
+    "phoneNumber": null,
+    "description": null,
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Vege2go Vegitalian Take-Away Food Store",
+    "location": {
+      "lng": "144.97319",
+      "lat": "-37.763657"
+    },
+    "address": "452 Lygon Street, Brunswick East",
+    "phoneNumber": null,
+    "description": "Italian vegetarian take away shop with dishes such as vegetable lasagna, eggplant parmigana, veg casserole, risottos, stuffed capsicum, arancini, foccacias, soups, salads and desserts. Prices are lovely and cheap and everything is under $10.",
+    "url": "http://www.vege2go.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Veg Out Time",
+    "location": {
+      "lng": "144.975586",
+      "lat": "-37.861103"
+    },
+    "address": "Shop 8, 63a Fitzroy Street, St Kilda",
+    "phoneNumber": null,
+    "description": "Mainly vegan, take-away food with a Singaporean, Malaysian, Thai, Indian and Chinese theme. Check what’s in dishes as there have been rumours of gelatine being used. Nothing over $12.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Vegie Hut",
+    "location": {
+      "lng": "145.124588",
+      "lat": "-37.818523"
+    },
+    "address": "984 Whitehorse Road, Box Hill",
+    "phoneNumber": null,
+    "description": "Vegie Hut uses gluten, soya bean, mushroom and yam to create every mock meat dish in every combination imaginable. Caters well for vegans but you will need to mention it before you order, prices are great and most dishes are under $20.",
+    "url": "http://www.vegiehut.com.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Vegie Mum",
+    "location": {
+      "lng": "145.109253",
+      "lat": "-37.78186"
+    },
+    "address": "27 Village Avenue, Doncaster",
+    "phoneNumber": null,
+    "description": "Features: Chinese and Malaysian cuisine; mock meats made from gluten, soya etc. Most savoury dishes are vegan except for the honey chicken and those dishes that contain egg; all dishes are free of onion, garlic, chives etc;",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "White Lotus Vegetarian Restaurant",
+    "location": {
+      "lng": "144.95546",
+      "lat": "-37.805984"
+    },
+    "address": "185 Victoria Street, West Melbourne",
+    "phoneNumber": null,
+    "description": "Everything at White Lotus is vegan and you won't be disappointed! They specialise in mock meats so it's a good place to help new vegans make the transition. The roast 'duck' and lemon 'chicken' are a must.  You'll enjoy a really tasty dinner in a casual and relaxed dining room. Take-away available. Everything under $20.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Wild Yam Healthfoods & Cafe",
+    "location": {
+      "lng": "145.086853",
+      "lat": "-38.006584"
+    },
+    "address": "499 Main Street, Mordialloc",
+    "phoneNumber": null,
+    "description": "Not just a cafe but also a health food shop as well specialises in vegan ice creams, pies, cheeses and meat alternatives. There is a lunch menu with the usual options and lots of vegan sweets to chose from.",
+    "url": "http://www.wildyamhealthfoods.com",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Wholefoods Cafe/Restaurant",
+    "location": {
+      "lng": "145.134201",
+      "lat": "-37.910854"
+    },
+    "address": "1st floor, Union Building, Monash University, Clayton Campus, Wellington Road, Clayton.",
+    "phoneNumber": null,
+    "description": "Mostly vegan, rotating menu changes daily with pastas, soups, salads and desserts. Great for poor students as everything is dirt cheap.",
+    "url": "",
+    "type": "Restaurant"
+  }
+]
