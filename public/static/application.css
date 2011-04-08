@@ -134,3 +134,6 @@ ol {
   font-style: italic;
   padding-bottom: 1em;
 }
+#about p:last-child {
+  padding-bottom: 0.5em;
+}
