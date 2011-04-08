@@ -1,0 +1,136 @@
+* { margin: 0; padding: 0; }
+
+body { font: 16px/1.5 "Helvetica Neue", Arial, sans-serif; font-weight: 200;
+  background-color: #090A29
+  }
+b { font-weight: 600}
+
+#column {
+width: 750px; margin: 0 auto; position: relative;
+  background-color: white;
+}
+abbr, article, aside, canvas, figure, footer, header, hgroup, nav, section { display: block; }
+
+#social {
+  float: left;
+  }
+
+#availability {
+  clear: both;
+  }
+
+header {
+  background-image: url("/images/melbourne-crop-1.jpg");
+  background-size: 100%;
+  height: 100px;
+  position:relative;
+  /* http://www.flickr.com/photos/chrisschoenbohm/4666273930/sizes/l/in/photostream/ */
+  }
+
+header h1 {
+  position: absolute;
+  top: 20px;
+  
+  color: white;
+  width: 98%;
+  padding-left: 2%;
+  background-color: rgba(255,255,255,0.3);
+}
+header a {
+  text-decoration: none;
+  }
+
+section {
+  font-family: georgia;
+  margin: 10px;
+  }
+
+section#intro {
+  font-size: 120%;
+}
+section#social {
+  width: 50%;
+}
+section#activism {
+  width: 40%;
+  float: left;
+}
+section h1, section h2 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 120%;
+}
+section h2 {
+  font-size: 100%;
+}
+section p {
+  margin-bottom: 1em;
+}
+em {
+  background-color:lemonChiffon;
+  font-style: normal;
+}
+a, a:visited {
+  color: black;
+}
+span.time {
+  display: block;
+  width: 165px;
+  float: left;
+}
+li {
+  list-style-type: none;
+  clear: both;
+  }
+ol {
+  margin-bottom: 1em;
+  }
+
+#availability {
+  position: relative;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+}
+
+#availability article {
+  position: absolute;
+  width: 320px;
+  bottom: 0;
+  right: -345px;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top-left-radius: 15px;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 80%;
+}
+  
+#availability article a, #availability article a:visited {
+  color: white;
+}
+#availability article p {
+  margin-bottom: 0.5em;
+}
+
+.address, .phone {
+  font-size: 11px;
+  display: block;
+}
+
+#organisations {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#organisations h1 {
+  font-size: 150%;
+}
+#organisations article h1 {
+  font-size: 120%;
+
+}
+.contact {
+  font-style: italic;
+  padding-bottom: 1em;
+}

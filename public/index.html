@@ -4,124 +4,7 @@
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <title>Melbourne Vegan</title>
-    <style>
-      * { margin: 0; padding: 0; }
-
-      body { font: 16px/1.5 "Helvetica Neue", Arial, sans-serif; font-weight: 200;
-        background-color: #090A29
-        }
-      b { font-weight: 600}
-    
-      #column {
- width: 750px; margin: 0 auto; position: relative;
-        background-color: white;
- }
-      abbr, article, aside, canvas, figure, footer, header, hgroup, nav, section { display: block; }
-
-      #social {
-        float: left;
-        }
-
-      #availability {
-        clear: both;
-        }
-
-      header {
-        background-image: url("images/melbourne-crop-1.jpg");
-        background-size: 100%;
-        height: 100px;
-        position:relative;
-        /* http://www.flickr.com/photos/chrisschoenbohm/4666273930/sizes/l/in/photostream/ */
-        }
-
-      header h1 {
-        position: absolute;
-        top: 20px;
-        
-        color: white;
-        width: 98%;
-        padding-left: 2%;
-        background-color: rgba(255,255,255,0.3);
-      }
-
-      section {
-        font-family: georgia;
-        margin: 10px;
-        }
-
-      section#intro {
-        font-size: 120%;
-      }
-      section#social {
-        width: 50%;
-      }
-      section#activism {
-        width: 40%;
-        float: left;
-      }
-      section h1, section h2 {
-        font-family: "Helvetica Neue", Arial, sans-serif;
-        font-size: 120%;
-      }
-      section h2 {
-        font-size: 100%;
-      }
-      section p {
-        margin-bottom: 1em;
-      }
-      em {
-        background-color:lemonChiffon;
-        font-style: normal;
-      }
-      a, a:visited {
-        color: black;
-      }
-      span.time {
-        display: block;
-        width: 165px;
-        float: left;
-      }
-      li {
-        list-style-type: none;
-        clear: both;
-        }
-      ol {
-        margin-bottom: 1em;
-        }
-
-      #availability {
-        position: relative;
-        margin-bottom: 0.5em;
-        overflow: hidden;
-      }
-
-      #availability article {
-        position: absolute;
-        width: 320px;
-        bottom: 0;
-        right: -345px;
-        color: white;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        border-top-left-radius: 15px;
-        background-color: rgba(0,0,0,0.8);
-        font-size: 80%;
-      }
-        
-      #availability article a, #availability article a:visited {
-        color: white;
-      }
-      #availability article p {
-        margin-bottom: 0.5em;
-      }
-
-      .address, .phone {
-        font-size: 11px;
-        display: block;
-      }
-    </style>
+    <link href="/static/application.css" media="screen" rel="stylesheet" type="text/css" />
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -131,10 +14,12 @@
 </script>
 
   </head>
-  <body onload="initialize()" onunload="GUnload()">
+  <body>
     <div id='column'>
     <header>
+      <a href='/'>
       <h1>Vegan Melbourne</h1>
+      </a>
     </header>
 
     <section id='intro'>
@@ -160,7 +45,7 @@
     </section>
     <section id='activism'>
       <h1>Activism</h1>
-      <p>Melbourne hosts a <a href="#">large number of activist organisations</a>, all working together to cover everything from outreach to animal rescue.</p>
+      <p>Melbourne hosts a <a href="/organisations.html">large number of activist organisations</a>, all working together to cover everything from outreach to animal rescue.</p>
       <p>If you are new to veganism or the city, we run a small <a href='http://www.vegan-month.com'>vegan mentoring group</a> most months to help you get started.</p>
     </section>
 
@@ -174,83 +59,9 @@
         <span class='address'></span>
         <span class='phone'></span>
       </article>
+      <p>Big ups to <a href="http://www.alv.org.au/"><acronym title="Animal Liberation Victoria">ALV</acronym></a> for putting together the bulk of this map. If you have anything to add, <a href='mailto:hello@xaviershay.com'>drop us a line</a>.</p>
     </section>
-    <br />
     </div>
-    <script>
-      function initialize() {
-        var melbourne = new google.maps.LatLng(-37.813611, 144.963056);
-        var mapOptions = {
-          zoom: 12,
-          center: melbourne,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-
-        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-        $.getJSON('/static/places.json', function(places) {
-          var currentPlace = null;
-
-          $(places).each(function() {
-            var place = this;
-            var point = new google.maps.LatLng(place.location.lat, place.location.lng);
-            var icons = {
-              'Restaurant': "http://google-maps-icons.googlecode.com/files/restaurant.png",
-              'Shopping':   "http://google-maps-icons.googlecode.com/files/supermarket.png",
-              'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",
-              'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
-              'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
-              'Market':     "http://google-maps-icons.googlecode.com/files/market.png"
-            }
-            var marker = new google.maps.Marker({
-              position: point,
-              map:      map,
-              title:    place.title,
-              icon:     icons[place.type]
-            });
-            google.maps.event.addListener(marker, 'click', function() {
-              var clickedPlace = place;
-              var info = $('#placeDetails');
-
-              if (currentPlace) {
-                info.animate(
-                  {right: "-345px"}, 
-                  {complete: function() {
-                    if (clickedPlace == currentPlace) {
-                      currentPlace = null;
-                    } else {
-                      currentPlace = clickedPlace;
-                      console.log(currentPlace.url);
-                      if (currentPlace.url) {
-                        $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
-                      } else {
-                        $('h1', info).html(clickedPlace.name);
-                      }
-                      $('p',  info).html(clickedPlace.description);
-                      $('.address',  info).text(clickedPlace.address);
-                      $('.phone',  info).text(clickedPlace.phoneNumber);
-                      info.animate({right: "0"});
-                    }
-                  }}
-                )
-              } else {
-                currentPlace = clickedPlace;
-                      console.log(currentPlace);
-                      if (currentPlace.url) {
-                        $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
-                      } else {
-                        $('h1', info).html(clickedPlace.name);
-                      }
-                $('p',  info).text(clickedPlace.description);
-                $('.address',  info).text(clickedPlace.address);
-                $('.phone',  info).text(clickedPlace.phoneNumber);
-                info.animate({right: "0"});
-              }
-            });
-          });
-        });
-      }
-    </script>
-    
+    <script src='/static/map.js'></script>
   </body>
 </html>
