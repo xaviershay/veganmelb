@@ -5,7 +5,7 @@ require 'geokit'
 require 'addressable/uri'
 
 places = CSV.read(ARGV[0], encoding: 'UTF-8').map do |row|
-  unless row[6] && row[7]
+  unless row[6].to_s.length > 0 && row[7].to_s.length > 0
     res = Geokit::Geocoders::MultiGeocoder.geocode(row[2])
 
     raise "Could not geocode #{row[0]}: #{row[2]}" unless res.lat

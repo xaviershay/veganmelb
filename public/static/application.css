@@ -51,7 +51,7 @@ section#intro {
 section#social {
   width: 50%;
 }
-section#activism {
+section#activism, section#business {
   width: 40%;
   float: left;
 }
@@ -61,6 +61,9 @@ section h1, section h2 {
 }
 section h2 {
   font-size: 100%;
+}
+article.business h2 {
+  color: #aaa;
 }
 section p {
   margin-bottom: 1em;
