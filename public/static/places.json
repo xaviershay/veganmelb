@@ -1,17 +1,5 @@
 [
   {
-    "name": "Name",
-    "location": {
-      "lng": "Lng",
-      "lat": "Lat"
-    },
-    "address": "Address",
-    "phoneNumber": "Phone",
-    "description": "Description",
-    "url": "URL",
-    "type": "Type"
-  },
-  {
     "name": "Radical Grocery Store",
     "location": {
       "lng": 144.9599576,

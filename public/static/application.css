@@ -88,7 +88,7 @@ ol {
   margin-bottom: 1em;
   }
 
-#availability {
+#availability .map {
   position: relative;
   margin-bottom: 0.5em;
   overflow: hidden;
@@ -105,6 +105,8 @@ ol {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
   background-color: rgba(0,0,0,0.8);
   font-size: 80%;
 }
@@ -139,4 +141,7 @@ ol {
 }
 #about p:last-child {
   padding-bottom: 0.5em;
+}
+acronym {
+  border: none;
 }

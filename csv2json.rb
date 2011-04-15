@@ -5,6 +5,7 @@ require 'geokit'
 require 'addressable/uri'
 
 places = CSV.read(ARGV[0], encoding: 'UTF-8').map do |row|
+  next if row[0] == 'Name'
   unless row[6].to_s.length > 0 && row[7].to_s.length > 0
     res = Geokit::Geocoders::MultiGeocoder.geocode(row[2])
 
@@ -26,4 +27,4 @@ places = CSV.read(ARGV[0], encoding: 'UTF-8').map do |row|
   }
 end
 
-puts places.to_json
+puts places.compact.to_json

@@ -26,7 +26,7 @@ $(function() {
       var marker = new google.maps.Marker({
         position: point,
         map:      map,
-        title:    place.title,
+        title:    place.name,
         icon:     icons[place.type]
       });
       google.maps.event.addListener(marker, 'click', function() {
@@ -41,7 +41,6 @@ $(function() {
                 currentPlace = null;
               } else {
                 currentPlace = clickedPlace;
-                console.log(currentPlace.url);
                 if (currentPlace.url) {
                   $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
                 } else {
@@ -56,7 +55,6 @@ $(function() {
           )
         } else {
           currentPlace = clickedPlace;
-                console.log(currentPlace);
                 if (currentPlace.url) {
                   $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
                 } else {
