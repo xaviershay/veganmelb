@@ -21,7 +21,8 @@ $(function() {
         'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",
         'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
         'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
-        'Market':     "http://google-maps-icons.googlecode.com/files/market.png"
+        'Market':     "http://google-maps-icons.googlecode.com/files/market.png",
+        'Hair Dresser': '/static/barber.png'
       }
       var marker = new google.maps.Marker({
         position: point,
