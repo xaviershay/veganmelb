@@ -30,7 +30,7 @@ def csv2json(filename)
       type:        row[1]
     }
   end
-  places.compact.to_json
+  JSON.pretty_generate(places.compact)
 end
 
 def csv2html(content)
