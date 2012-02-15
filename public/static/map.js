@@ -16,6 +16,7 @@ $(function() {
       var place = this;
       var point = new google.maps.LatLng(place.location.lat, place.location.lng);
       var icons = {
+        'Bar':        "/static/bar.png",
         'Restaurant': "http://google-maps-icons.googlecode.com/files/restaurant.png",
         'Shopping':   "http://google-maps-icons.googlecode.com/files/supermarket.png",
         'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",

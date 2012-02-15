@@ -730,5 +730,17 @@
     "description": "Victoria's first vegan bed and breakfast retreat, in beautiful Katandra West, just outside Shepparton, Victoria, in the heart of the Goulburn Valley.",
     "url": "http://www.bedandbroccoli.com.au/",
     "type": "Restaurant"
+  },
+  {
+    "name": "Whole Lotta Love",
+    "location": {
+      "lng": 144.973552,
+      "lat": -37.762317
+    },
+    "address": "524 Lygon St, East Brunswick",
+    "phoneNumber": null,
+    "description": "Whole Lotta Love is the bar that'll fill the hole in your tequila soaked heart, paying tribute to the many kings of rock across the ages.",
+    "url": "",
+    "type": "Bar"
   }
 ]
