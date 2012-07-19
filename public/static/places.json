@@ -2,8 +2,8 @@
   {
     "name": "Radical Grocery Store",
     "location": {
-      "lng": 144.9600186,
-      "lat": -37.7751398
+      "lng": 144.9600215,
+      "lat": -37.775126
     },
     "address": "6 Wilson Ave, Brunswick",
     "phoneNumber": "(03) 9077 5512",
@@ -14,8 +14,8 @@
   {
     "name": "Organic Wholefoods",
     "location": {
-      "lng": 144.983861,
-      "lat": -37.8006344
+      "lng": 144.9838577,
+      "lat": -37.8006426
     },
     "address": "277 Smith Street, Fitzroy",
     "phoneNumber": "(03) 9384 0288",
@@ -50,8 +50,8 @@
   {
     "name": "Vic Market",
     "location": {
-      "lng": 144.9609046,
-      "lat": -37.8064856
+      "lng": 144.9609078,
+      "lat": -37.8064686
     },
     "address": "55 Victoria St, Melbourne",
     "phoneNumber": "(03) 9320 5822",
