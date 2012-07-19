@@ -742,5 +742,17 @@
     "description": "Whole Lotta Love is the bar that'll fill the hole in your tequila soaked heart, paying tribute to the many kings of rock across the ages.",
     "url": "",
     "type": "Bar"
+  },
+  {
+    "name": "Fina's Vegetarian Cafe",
+    "location": {
+      "lng": 145.0002198,
+      "lat": -37.8107481
+    },
+    "address": "268 Victoria Street, Richmond",
+    "phoneNumber": "(03) 9428 6765",
+    "description": "Specialises in authentic vegetarian and vegan Vietnamese cuisine.",
+    "url": "",
+    "type": "Restaurant"
   }
 ]
