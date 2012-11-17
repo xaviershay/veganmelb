@@ -264,6 +264,18 @@
     "type": "Restaurant"
   },
   {
+    "name": "Mister Nice Guy Cupcakes",
+    "location": {
+      "lng": 144.9156353,
+      "lat": -37.774429
+    },
+    "address": "151 Union Road, Ascot Vale",
+    "phoneNumber": "",
+    "description": "Incredible cupcakes, all vegan. Can be gluten free on request.",
+    "url": "http://http//www.misterniceguy.com.au/",
+    "type": "Shopping"
+  },
+  {
     "name": "Trippy Taco",
     "location": {
       "lng": "144.983124",
