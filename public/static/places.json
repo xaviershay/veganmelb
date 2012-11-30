@@ -766,17 +766,5 @@
     "description": "Specialises in authentic vegetarian and vegan Vietnamese cuisine.",
     "url": "",
     "type": "Restaurant"
-  },
-  {
-    "name": "Purple Patch Cafe",
-    "location": {
-      "lng": 145.0042578,
-      "lat": -37.9512512
-    },
-    "address": "19 Bay Road, Sandringham",
-    "phoneNumber": "0417 147822",
-    "description": "Fresh, delicious vegetarian food that includes plenty of variety for people who follow a vegan diet. All of their sweet treats are vegan. Food is available to eat in or take home. Fantastic coffee also.",
-    "url": "https://facebook.com/purplepatchvegetarianandvegancafeandcoffeehouse",
-    "type": "Restaurant"
   }
 ]
