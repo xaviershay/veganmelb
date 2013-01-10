@@ -2,8 +2,8 @@
   {
     "name": "Radical Grocery Store",
     "location": {
-      "lng": 144.9600215,
-      "lat": -37.775126
+      "lng": 144.9600186,
+      "lat": -37.7751396
     },
     "address": "6 Wilson Ave, Brunswick",
     "phoneNumber": "(03) 9077 5512",
@@ -50,8 +50,8 @@
   {
     "name": "Vic Market",
     "location": {
-      "lng": 144.9609078,
-      "lat": -37.8064686
+      "lng": 144.9609052,
+      "lat": -37.8064822
     },
     "address": "55 Victoria St, Melbourne",
     "phoneNumber": "(03) 9320 5822",
