@@ -766,5 +766,17 @@
     "description": "Specialises in authentic vegetarian and vegan Vietnamese cuisine.",
     "url": "",
     "type": "Restaurant"
+  },
+  {
+    "name": "TOFWD",
+    "location": {
+      "lng": 144.9658606,
+      "lat": -37.8172122
+    },
+    "address": "28 Degraves St, Melbourne",
+    "phoneNumber": "(03) 9654 5157",
+    "description": "The organic food and fine deli, catering for vegan, wheat free, dairy free, and sugar free.",
+    "url": "http://www.tofwd.com.au/",
+    "type": "Restaurant"
   }
 ]
