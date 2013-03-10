@@ -778,5 +778,29 @@
     "description": "The organic food and fine deli, catering for vegan, wheat free, dairy free, and sugar free.",
     "url": "http://www.tofwd.com.au/",
     "type": "Restaurant"
+  },
+  {
+    "name": "Feedme",
+    "location": {
+      "lng": 144.9939009,
+      "lat": -37.8689315
+    },
+    "address": "215 Carlisle Street, Balaclava",
+    "phoneNumber": "(03) 9527 4511",
+    "description": "Not a vegan restaurant, but they do a good make your own salad and the soup is often vegan too.",
+    "url": "http://www.feedmee.com.au/?utm_source=directories&utm_medium=web&utm_campaign=seo",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Feedme",
+    "location": {
+      "lng": 144.993218,
+      "lat": -37.854415
+    },
+    "address": "104 Chapel Street, Windsor",
+    "phoneNumber": "(03) 9525 2525",
+    "description": "Not a vegan restaurant, but they do a good make-your-own salad and the soup is often vegan too.",
+    "url": "http://www.feedmee.com.au/?utm_source=directories&utm_medium=web&utm_campaign=seo",
+    "type": "Restaurant"
   }
 ]
