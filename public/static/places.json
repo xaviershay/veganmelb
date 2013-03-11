@@ -802,5 +802,17 @@
     "description": "Not a vegan restaurant, but they do a good make-your-own salad and the soup is often vegan too.",
     "url": "http://www.feedmee.com.au/?utm_source=directories&utm_medium=web&utm_campaign=seo",
     "type": "Restaurant"
+  },
+  {
+    "name": "The Bear Cafe",
+    "location": {
+      "lng": 144.9791468,
+      "lat": -37.7938052
+    },
+    "address": "439 Brunswick Street, Fitzroy",
+    "phoneNumber": "0414 507 635",
+    "description": "Vegan cafe and specialised grocery with a good gluten free selection also.",
+    "url": "https://www.facebook.com/pages/The-Bear-Cafe/411756705573879",
+    "type": "Restaurant"
   }
 ]
