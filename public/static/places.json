@@ -814,5 +814,17 @@
     "description": "Vegan cafe and specialised grocery with a good gluten free selection also.",
     "url": "https://www.facebook.com/pages/The-Bear-Cafe/411756705573879",
     "type": "Restaurant"
+  },
+  {
+    "name": "Vincent Vegetarian",
+    "location": {
+      "lng": 144.890934,
+      "lat": -37.798974
+    },
+    "address": "353 Barkly Street, Footscray",
+    "phoneNumber": "(03) 9325 1188",
+    "description": "Large range of mock meats and cheeses, vegan fish sauce, self-made dehydrated soy products, and other vegan foodstuffs.",
+    "url": "http://www.vincentvegetarianfood.com/",
+    "type": "Shopping"
   }
 ]
