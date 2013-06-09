@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'geokit'
+gem 'geocoder'
 gem 'json'
 gem 'addressable'

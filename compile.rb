@@ -4,18 +4,19 @@ require 'erb'
 require 'csv'
 require 'json'
 
-require 'geokit'
+require 'geocoder'
 require 'addressable/uri'
 
 def csv2json(filename)
   places = CSV.read(filename, encoding: 'UTF-8').map do |row|
     next if row[0] == 'Name'
     unless row[6].to_s.length > 0 && row[7].to_s.length > 0
-      res = Geokit::Geocoders::MultiGeocoder.geocode(row[2])
+      res = Geocoder.search(row[2] + ", Australia", :bias => 'au')
 
-      raise "Could not geocode #{row[0]}: #{row[2]}" unless res.lat
-      row[6] = res.lng
-      row[7] = res.lat
+      raise "Could not geocode #{row[0]}: #{row[2]}" unless res.any?
+      res = res.first
+      row[6] = res.longitude
+      row[7] = res.latitude
     end
 
     {
