@@ -2,7 +2,7 @@
   {
     "name": "Radical Grocery Store",
     "location": {
-      "lng": 144.9600186,
+      "lng": 144.9600187,
       "lat": -37.7751396
     },
     "address": "6 Wilson Ave, Brunswick",
@@ -26,8 +26,8 @@
   {
     "name": "Metta Scents",
     "location": {
-      "lng": 144.9917059,
-      "lat": -37.8492436
+      "lng": 144.9917067,
+      "lat": -37.8492434
     },
     "address": "111 Greville Street, Prahran",
     "phoneNumber": "",
@@ -50,8 +50,8 @@
   {
     "name": "Vic Market",
     "location": {
-      "lng": 144.9609052,
-      "lat": -37.8064822
+      "lng": 144.9607643,
+      "lat": -37.8064657
     },
     "address": "55 Victoria St, Melbourne",
     "phoneNumber": "(03) 9320 5822",
@@ -266,8 +266,8 @@
   {
     "name": "Mister Nice Guy Cupcakes",
     "location": {
-      "lng": 144.9156353,
-      "lat": -37.774429
+      "lng": 144.9156352,
+      "lat": -37.7744299
     },
     "address": "151 Union Road, Ascot Vale",
     "phoneNumber": "",
@@ -320,6 +320,18 @@
     "address": "183 St Georges Road, Fitzroy North",
     "phoneNumber": "",
     "description": "Vegetarian restaurant that serves Egyptian/North African cuisine (you will have to let your waiter know that you require vegan dishes as they can be quite dairy heavy). No written menu so the waiter will let you know what’s on offer – the banquets are great value which is usually dips with bread, followed by the main and a dessert with coffee. Prices average from around $10 for mains or $18 for the banquets.",
+    "url": "",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Soul Curry",
+    "location": {
+      "lng": 145.1715405,
+      "lat": -37.8389531
+    },
+    "address": "382 Springvale Road, Forest Hill",
+    "phoneNumber": "Open for dinner all seven nights. Has a vegetarian and vegan friendly buffet every Sunday morning.",
+    "description": "http://soulcurry.net.au/",
     "url": "",
     "type": "Restaurant"
   },
@@ -710,8 +722,8 @@
   {
     "name": "Riversdale Hairworks",
     "location": {
-      "lng": 145.071735,
-      "lat": -37.8321784
+      "lng": 145.0776116,
+      "lat": -37.8336153
     },
     "address": "717 Riversdale Road, Middle Camberwell",
     "phoneNumber": "(03) 9830 4035",
@@ -722,8 +734,8 @@
   {
     "name": "Savvy Organic Pizza & Gelato",
     "location": {
-      "lng": 145.3537433,
-      "lat": -37.9095376
+      "lng": 145.3537466,
+      "lat": -37.909537
     },
     "address": "Shop 3, Belgrave Arcade, 1645 Burwood Highway, Belgrave",
     "phoneNumber": "(03) 9754 6642",
@@ -782,7 +794,7 @@
   {
     "name": "Feedme",
     "location": {
-      "lng": 144.9939009,
+      "lng": 144.9938995,
       "lat": -37.8689315
     },
     "address": "215 Carlisle Street, Balaclava",
