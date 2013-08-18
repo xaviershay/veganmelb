@@ -278,13 +278,13 @@
   {
     "name": "Trippy Taco",
     "location": {
-      "lng": "144.983124",
-      "lat": "-37.806969"
+      "lng": 144.982422,
+      "lat": -37.806515
     },
-    "address": "48a Smith Street, Collingwood",
-    "phoneNumber": "",
-    "description": "",
-    "url": "",
+    "address": "234 Gertrude Street, Fitzroy VIC, 3065",
+    "phoneNumber": "(03) 9415 7711",
+    "description": "Vegetarian mexican restaurant with vegan options for everything.",
+    "url": "http://www.trippytaco.com.au/",
     "type": "Restaurant"
   },
   {
