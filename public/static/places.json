@@ -838,5 +838,17 @@
     "description": "Large range of mock meats and cheeses, vegan fish sauce, self-made dehydrated soy products, and other vegan foodstuffs.",
     "url": "http://www.vincentvegetarianfood.com/",
     "type": "Shopping"
+  },
+  {
+    "name": "Berrissimo",
+    "location": {
+      "lng": 144.978912,
+      "lat": -37.796367
+    },
+    "address": "Shop 2, 360 Brunswick Street, Fitzroy, VIC 3065",
+    "phoneNumber": "(03) 9041 2177",
+    "description": "A frozen yoghurt store that offers a large range of vegan flavours and toppings.",
+    "url": "http://berrissimo.com.au/",
+    "type": "Restaurant"
   }
 ]
