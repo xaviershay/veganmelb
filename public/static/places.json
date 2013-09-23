@@ -845,10 +845,22 @@
       "lng": 144.978912,
       "lat": -37.796367
     },
-    "address": "Shop 2, 360 Brunswick Street, Fitzroy, VIC 3065",
+    "address": "Shop 2, 360 Brunswick Street, Fitzroy, VIC",
     "phoneNumber": "(03) 9041 2177",
     "description": "A frozen yoghurt store that offers a large range of vegan flavours and toppings.",
     "url": "http://berrissimo.com.au/",
+    "type": "Restaurant"
+  },
+  {
+    "name": "The Cornish Arms",
+    "location": {
+      "lng": 144.960705,
+      "lat": -37.773475
+    },
+    "address": "163 Sydney Rd, Brunswick, VIC",
+    "phoneNumber": "(03) 9380 8383",
+    "description": "Great vegan menu of pub classics plus regular vegan specials. Not exclusively vegan though.",
+    "url": "http://www.cornisharms.com.au/",
     "type": "Restaurant"
   }
 ]
