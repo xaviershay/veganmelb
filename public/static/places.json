@@ -862,5 +862,17 @@
     "description": "Great vegan menu of pub classics plus regular vegan specials. Not exclusively vegan though.",
     "url": "http://www.cornisharms.com.au/",
     "type": "Restaurant"
+  },
+  {
+    "name": "La Panella Bakery",
+    "location": {
+      "lng": 145.0038325,
+      "lat": -37.7383615
+    },
+    "address": "465 High St, Preston, VIC",
+    "phoneNumber": "(03) 9478 4443",
+    "description": "Bakery which serves a range of vegetarian and vegan foods including “meat” pies and “sausage” rolls, donuts, and more.",
+    "url": "http://www.urbanspoon.com/r/71/1562164/restaurant/Melbourne/La-Panella-Bakery-Preston",
+    "type": "Restaurant"
   }
 ]
