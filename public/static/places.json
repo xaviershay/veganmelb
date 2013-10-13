@@ -874,5 +874,17 @@
     "description": "Bakery which serves a range of vegetarian and vegan foods including “meat” pies and “sausage” rolls, donuts, and more.",
     "url": "http://www.urbanspoon.com/r/71/1562164/restaurant/Melbourne/La-Panella-Bakery-Preston",
     "type": "Restaurant"
+  },
+  {
+    "name": "Zambrero",
+    "location": {
+      "lng": 144.960973,
+      "lat": -37.812547
+    },
+    "address": "388 Lonsdale St, Melbourne, VIC",
+    "phoneNumber": "(03) 9670 8040",
+    "description": "Offers a range of vegan-friendly Mexican food.",
+    "url": "https://www.facebook.com/zambrerolonsdalestreet",
+    "type": "Restaurant"
   }
 ]
