@@ -914,13 +914,25 @@
   {
     "name": "Down to Earth Tattoos",
     "location": {
-      "lng": 144.895875,
-      "lat": -37.738998
+      "lng": "144.8958",
+      "lat": "-37.7390"
     },
     "address": "305 Keilor Rd, Essendon, VIC",
     "phoneNumber": "(03) 9379 9540",
     "description": "Down to Earth Tattoos is proud to be one of the very few Vegan tattoo studios in the country.",
     "url": "http://www.downtoearthtattoos.com.au/",
     "type": "Beauty"
+  },
+  {
+    "name": "Il Gobbo",
+    "location": {
+      "lng": "144.8962",
+      "lat": "-37.7386"
+    },
+    "address": "305 Keilor Rd, Essendon, VIC",
+    "phoneNumber": "(03) 9379 9540",
+    "description": "All vegan burgers and hot-dogs.",
+    "url": "https://www.facebook.com/ilgobbovegan",
+    "type": "Restaurant"
   }
 ]
