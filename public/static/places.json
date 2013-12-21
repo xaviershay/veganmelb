@@ -14,8 +14,8 @@
   {
     "name": "Organic Wholefoods",
     "location": {
-      "lng": 144.9838577,
-      "lat": -37.8006426
+      "lng": 144.983683,
+      "lat": -37.800642
     },
     "address": "277 Smith Street, Fitzroy",
     "phoneNumber": "(03) 9384 0288",
@@ -26,8 +26,8 @@
   {
     "name": "Metta Scents",
     "location": {
-      "lng": 144.9917067,
-      "lat": -37.8492434
+      "lng": 144.9906509,
+      "lat": -37.8489979
     },
     "address": "111 Greville Street, Prahran",
     "phoneNumber": "",
@@ -266,8 +266,8 @@
   {
     "name": "Mister Nice Guy Cupcakes",
     "location": {
-      "lng": 144.9156352,
-      "lat": -37.7744299
+      "lng": 144.915456,
+      "lat": -37.774385
     },
     "address": "151 Union Road, Ascot Vale",
     "phoneNumber": "",
@@ -278,10 +278,10 @@
   {
     "name": "Trippy Taco",
     "location": {
-      "lng": 144.982422,
-      "lat": -37.806515
+      "lng": "144.982422",
+      "lat": "-37.806515"
     },
-    "address": "234 Gertrude Street, Fitzroy VIC, 3065",
+    "address": "234 Gertrude St, Fitzroy VIC",
     "phoneNumber": "(03) 9415 7711",
     "description": "Vegetarian mexican restaurant with vegan options for everything.",
     "url": "http://www.trippytaco.com.au/",
@@ -770,8 +770,8 @@
   {
     "name": "Fina's Vegetarian Cafe",
     "location": {
-      "lng": 145.0002001,
-      "lat": -37.8106145
+      "lng": 145.0002198,
+      "lat": -37.8107481
     },
     "address": "268 Victoria Street, Richmond",
     "phoneNumber": "(03) 9428 6765",
@@ -794,8 +794,8 @@
   {
     "name": "Feedme",
     "location": {
-      "lng": 144.9938995,
-      "lat": -37.8689315
+      "lng": 144.993872,
+      "lat": -37.869074
     },
     "address": "215 Carlisle Street, Balaclava",
     "phoneNumber": "(03) 9527 4511",
@@ -818,8 +818,8 @@
   {
     "name": "The Bear Cafe",
     "location": {
-      "lng": 144.9791468,
-      "lat": -37.7938052
+      "lng": 144.9789,
+      "lat": -37.793835
     },
     "address": "439 Brunswick Street, Fitzroy",
     "phoneNumber": "0414 507 635",
@@ -842,8 +842,8 @@
   {
     "name": "Berrissimo",
     "location": {
-      "lng": 144.978912,
-      "lat": -37.796367
+      "lng": 144.979148,
+      "lat": -37.796492
     },
     "address": "Shop 2, 360 Brunswick Street, Fitzroy, VIC",
     "phoneNumber": "(03) 9041 2177",
@@ -885,6 +885,30 @@
     "phoneNumber": "(03) 9670 8040",
     "description": "Offers a range of vegan-friendly Mexican food.",
     "url": "https://www.facebook.com/zambrerolonsdalestreet",
+    "type": "Restaurant"
+  },
+  {
+    "name": "The Australian Natural Soap Company",
+    "location": {
+      "lng": 144.99358,
+      "lat": -37.84723899999999
+    },
+    "address": "1/325 Chapel St, Prahran, VIC",
+    "phoneNumber": "1300 727 715",
+    "description": "Australia is blessed with some of the world’s best natural oils. The Australian Natural Soap Company use our own special soap making process to bring these incredible ingredients to your bathroom. Environmentally friendly and cruelty free.",
+    "url": "http://www.theaustraliannaturalsoapcompany.com.au/",
+    "type": "Gift"
+  },
+  {
+    "name": "Madame K's Vegetarian",
+    "location": {
+      "lng": 144.9785836,
+      "lat": -37.7961793
+    },
+    "address": "367 Brunswick St, Fitzroy, VIC",
+    "phoneNumber": "(03) 9415 6099",
+    "description": "Thai and Asian vegetarian restaurant. Don't miss the desserts!",
+    "url": "http://www.madamek.com.au/",
     "type": "Restaurant"
   }
 ]
