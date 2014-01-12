@@ -8,6 +8,7 @@ $(function() {
   }
 
   var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+  var markers = [];
 
   $.getJSON('/static/places.json', function(places) {
     var currentPlace = null;
@@ -32,6 +33,7 @@ $(function() {
         title:    place.name,
         icon:     icons[place.type]
       });
+      markers.push(marker);
       google.maps.event.addListener(marker, 'click', function() {
         var clickedPlace = place;
         var info = $('#placeDetails');
@@ -70,5 +72,6 @@ $(function() {
         }
       });
     });
+    var markerCluster = new MarkerClusterer(map, markers, {gridSize: 25});
   });
 });
