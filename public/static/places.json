@@ -934,5 +934,41 @@
     "description": "All vegan burgers and hot-dogs.",
     "url": "https://www.facebook.com/ilgobbovegan",
     "type": "Restaurant"
+  },
+  {
+    "name": "Sweetwater Inn",
+    "address": "1-60 Bray Street, South Yarra, VIC",
+    "phoneNumber": "0487 916 082",
+    "description": "Pub with full vegan menu.",
+    "url": "http://www.sweetwaterinn.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.995676,
+      "lat": -37.843325
+    }
+  },
+  {
+    "name": "Panzerotti",
+    "address": "289 Flinders Lane, Melbourne, VIC",
+    "phoneNumber": "(03) 9662 3321",
+    "description": "Sweet and savoury panzerottis with vegan options, including vegan cheese. Make your own!",
+    "url": "http://www.thepanzerottishop.com.au/",
+    "type": "Fast Food",
+    "location": {
+      "lng": 144.964968,
+      "lat": -37.81719
+    }
+  },
+  {
+    "name": "Admiral Cheng Ho",
+    "address": "325 Johnston St, Abbotsford, VIC",
+    "phoneNumber": "(03) 9534 7250",
+    "description": "Sister shop to Monk Bodhi Darma. All day breakfast menu, all vegan or vegan adaptible with gluten free and raw options too. A little on the pricey side, but you get what you pay for.",
+    "url": "http://www.yelp.com.au/biz/admiral-cheng-ho-abbotsford",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.99742,
+      "lat": -37.800503
+    }
   }
 ]
