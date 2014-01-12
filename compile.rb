@@ -7,31 +7,19 @@ require 'json'
 require 'geocoder'
 require 'addressable/uri'
 
-def csv2json(filename)
-  places = CSV.read(filename, encoding: 'UTF-8').map do |row|
-    next if row[0] == 'Name'
-    unless row[6].to_s.length > 0 && row[7].to_s.length > 0
-      res = Geocoder.search(row[2] + ", Australia", :bias => 'au')
-
+def geocode(places)
+  places.map do |place|
+    unless place['location']
+      res = Geocoder.search(place['address'] + ", Australia", :bias => 'au')
       raise "Could not geocode #{row[0]}: #{row[2]}" unless res.any?
       res = res.first
-      row[6] = res.longitude
-      row[7] = res.latitude
+      place['location'] = {
+        lng: res.longitude,
+        lat: res.latitude
+      }
     end
-
-    {
-      name:        row[0],
-      location:    {
-        lng: row[6],
-        lat: row[7]},
-      address:     row[2].to_s.gsub(/,? \d+$/, ''),
-      phoneNumber: row[3],
-      description: row[4],
-      url:         Addressable::URI.heuristic_parse(row[5]).to_s,
-      type:        row[1]
-    }
+    place
   end
-  JSON.pretty_generate(places.compact)
 end
 
 def csv2html(content)
@@ -62,6 +50,8 @@ end
   File.open("public/#{category}.html", "w") {|f| f.write(out) }
 end
 
+existing_places = JSON.parse(File.read("public/static/places.json"))
+
 File.open("public/static/places.json", "w") do |f|
-  f.write csv2json('data/locations.csv')
+  f.write JSON.pretty_generate(geocode(existing_places))
 end
