@@ -1,17 +1,5 @@
 [
   {
-    "name": "Radical Grocery Store",
-    "location": {
-      "lng": 144.9600187,
-      "lat": -37.7751396
-    },
-    "address": "6 Wilson Ave, Brunswick",
-    "phoneNumber": "(03) 9077 5512",
-    "description": "All your vegan shopping needs.",
-    "url": "http://radicalgrocery.com",
-    "type": "Shopping"
-  },
-  {
     "name": "Organic Wholefoods",
     "location": {
       "lng": 144.983683,
