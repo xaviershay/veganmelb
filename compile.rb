@@ -11,7 +11,7 @@ def geocode(places)
   places.map do |place|
     unless place['location']
       res = Geocoder.search(place['address'] + ", Australia", :bias => 'au')
-      raise "Could not geocode #{row[0]}: #{row[2]}" unless res.any?
+      raise "Could not geocode #{place['name']}" unless res.any?
       res = res.first
       place['location'] = {
         lng: res.longitude,
@@ -52,6 +52,8 @@ end
 
 existing_places = JSON.parse(File.read("public/static/places.json"))
 
+output = JSON.pretty_generate(geocode(existing_places))
+
 File.open("public/static/places.json", "w") do |f|
-  f.write JSON.pretty_generate(geocode(existing_places))
+  f.puts output
 end
