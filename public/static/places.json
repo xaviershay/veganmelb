@@ -958,5 +958,17 @@
       "lng": 144.99742,
       "lat": -37.800503
     }
+  },
+  {
+    "name": "Dosa Plaza",
+    "address": "10 Princess Highway, Dandenong, VIC",
+    "phoneNumber": "(03) 8774 4913",
+    "description": "100% vegetarian Indian with plenty of vegan options available.",
+    "url": "http://www.dosaplaza.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.214393,
+      "lat": -37.984338
+    }
   }
 ]
