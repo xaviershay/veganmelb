@@ -9,6 +9,9 @@ Add to the appopriate `CSV` in `data/`, then run :
 
     bundle exec ruby compile.rb
 
+For places, put the directly into `public/static/places.json` without location,
+and the next compile will geocode it.
+
 (The geocoder has been a bit screwy lately, so you may have to
 check the generated files by hand.)
 

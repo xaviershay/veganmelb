@@ -588,16 +588,16 @@
     "type": "Restaurant"
   },
   {
-    "name": "Invita Food for Life Cafe",
-    "location": {
-      "lng": "144.958694",
-      "lat": "-37.807343"
-    },
-    "address": "",
+    "name": "Invita Living Food",
+    "address": "76 Therry St, Melbourne, 3000",
     "phoneNumber": "",
-    "description": "",
-    "url": "",
-    "type": "Restaurant"
+    "description": "Invita Living Food provides gluten free food, axil coffee, vegan food and healthy food in Melbourne CBD.",
+    "url": "http://www.invita.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9588301,
+      "lat": -37.8074015
+    }
   },
   {
     "name": "Soulmama",
@@ -961,6 +961,18 @@
   },
   {
     "name": "Dosa Plaza",
+    "address": "10 Princess Highway, Dandenong, VIC",
+    "phoneNumber": "(03) 8774 4913",
+    "description": "100% vegetarian Indian with plenty of vegan options available.",
+    "url": "http://www.dosaplaza.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.214393,
+      "lat": -37.984338
+    }
+  },
+  {
+    "name": "",
     "address": "10 Princess Highway, Dandenong, VIC",
     "phoneNumber": "(03) 8774 4913",
     "description": "100% vegetarian Indian with plenty of vegan options available.",
