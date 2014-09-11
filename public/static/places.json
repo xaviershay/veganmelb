@@ -972,15 +972,15 @@
     }
   },
   {
-    "name": "",
-    "address": "10 Princess Highway, Dandenong, VIC",
-    "phoneNumber": "(03) 8774 4913",
-    "description": "100% vegetarian Indian with plenty of vegan options available.",
-    "url": "http://www.dosaplaza.com.au/",
-    "type": "Restaurant",
+    "name": "Ivanhoe East Vet Hospital",
+    "address": "257 Lower Heidelberg Rd, Ivanhoe East, VIC",
+    "phoneNumber": "(03) 9497 3003",
+    "description": "Vetinary hospital with an all vegan staff.",
+    "url": "http://ivanhoeeastvet.com.au/",
+    "type": "Veterinary",
     "location": {
-      "lng": 145.214393,
-      "lat": -37.984338
+      "lng": 145.05969,
+      "lat": -37.772681
     }
   }
 ]

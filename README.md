@@ -12,6 +12,8 @@ Add to the appopriate `CSV` in `data/`, then run :
 For places, put the directly into `public/static/places.json` without location,
 and the next compile will geocode it.
 
+Map icons from http://mapicons.nicolasmollet.com/
+
 (The geocoder has been a bit screwy lately, so you may have to
 check the generated files by hand.)
 

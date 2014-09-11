@@ -24,6 +24,7 @@ $(function() {
         'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
         'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
         'Market':     "http://google-maps-icons.googlecode.com/files/market.png",
+        'Veterinary':   "/static/veterinary.png",
         'Hair Dresser': '/static/barber.png',
         'Beauty':       '/static/beautysalon.png'
       }
