@@ -982,5 +982,17 @@
       "lng": 145.05969,
       "lat": -37.772681
     }
+  },
+  {
+    "name": "Pana Chocolate",
+    "address": "491 Church Street, Richmond VIC 3121",
+    "phoneNumber": "1300 717 488",
+    "description": "Raw, organic chocolate that is handmade in Melbourne, Australia. It contains only natural ingredients such as raw organic nuts, organic goji berries, organic coconut flakes and pure 100% essential oils.",
+    "url": "http://www.panachocolate.com/",
+    "type": "Gift",
+    "location": {
+      "lng": 144.997737,
+      "lat": -37.828207
+    }
   }
 ]
