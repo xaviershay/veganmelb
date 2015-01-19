@@ -994,5 +994,17 @@
       "lng": 144.997737,
       "lat": -37.828207
     }
+  },
+  {
+    "name": "Dex2rose",
+    "address": "377 Little Bourke Street, Melbourne VIC 3000",
+    "phoneNumber": "",
+    "description": "Made to order gelato made with liquid nitrogen. Minimum of 3 vegan flavours, rotates every 2 weeks.",
+    "url": "https://facebook.com/dex2rose",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9615712,
+      "lat": -37.81374220000001
+    }
   }
 ]
