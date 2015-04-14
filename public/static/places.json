@@ -1006,5 +1006,137 @@
       "lng": 144.9615712,
       "lat": -37.81374220000001
     }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "10 Howey Pl, Melbourne VIC 3000",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9652622,
+      "lat": -37.8150559
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "25 Carpenter St, Brighton VIC 3186",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.994866,
+      "lat": -37.913883
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "785 Glenferrie Rd, Hawthorn VIC 3122",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.036128,
+      "lat": -37.816745
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "231 Gertrude St, Fitzroy VIC 3065",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.98227,
+      "lat": -37.806099
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "Shop 2 / 15 Collins Street, Melbourne VIC 3000",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9733759,
+      "lat": -37.8137911
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "Shop 4 / 286 Toorak Rd, South Yarra VIC 3141",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.996669,
+      "lat": -37.8399
+    }
+  },
+  {
+    "name": "Pressed Juices",
+    "address": "162 Chapel Street, Windsor VIC 3181",
+    "phoneNumber": "",
+    "description": "Freshly made juices and mylks.",
+    "url": "https://www.pressedjuices.com.au",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.993424,
+      "lat": -37.852581
+    }
+  },
+  {
+    "name": "Green Press",
+    "address": "Shop 7 / 525 Little Collins St, Melbourne VIC 3000",
+    "phoneNumber": "(03) 9973 8286",
+    "description": "Cold pressed juices, salads, and some granola-ey acai type stuff.",
+    "url": "https://www.facebook.com/lovegreenpress",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.957392,
+      "lat": -37.8173434
+    }
+  },
+  {
+    "name": "Vietnamese Street Eats",
+    "address": "353-359 Little Collins Street, Melbourne VIC 3000",
+    "phoneNumber": "(03) 9602 3434",
+    "description": "Only one vegan dish - tofu/vegie curry with brown rice - but it's amazing.",
+    "url": "https://plus.google.com/100042969296962678449/about?gl=us&hl=en",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9627287,
+      "lat": -37.81547339999999
+    }
+  },
+  {
+    "name": "Cinnamon's",
+    "address": "Shop 1 / 530 Little Collins Street, Melbourne VIC 3000",
+    "phoneNumber": "(03) 9866 1681",
+    "description": "All vegetarian dishes are vegan.",
+    "url": "http://www.cinnamons.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9570922,
+      "lat": -37.8168803
+    }
+  },
+  {
+    "name": "Cinnamon's",
+    "address": "474 St Kilda Road, Melbourne VIC 3004",
+    "phoneNumber": "(03) 9866 1681",
+    "description": "All vegetarian dishes are vegan.",
+    "url": "http://www.cinnamons.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9773433,
+      "lat": -37.8418139
+    }
   }
 ]
