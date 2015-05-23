@@ -1138,5 +1138,17 @@
       "lng": 144.9773433,
       "lat": -37.8418139
     }
+  },
+  {
+    "name": "The Dispensary Emporium",
+    "address": "270 Highett Rd, Highett Village VIC 3190",
+    "phoneNumber": "",
+    "description": "All organic cafe featuring raw vegan chocolate, drinks and treats. Also skin care, makeup, and other gifts. They make a lot of their own products.",
+    "url": "http://thedispensaryemporium.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.039823,
+      "lat": -37.948739
+    }
   }
 ]
