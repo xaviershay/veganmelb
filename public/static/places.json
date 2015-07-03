@@ -1150,5 +1150,17 @@
       "lng": 145.039823,
       "lat": -37.948739
     }
+  },
+  {
+    "name": "Simple Seed",
+    "address": "4/9 Yarra St, South Yarra, VIC 3141",
+    "phoneNumber": "0421 573 524",
+    "description": "Fresh, seasonal fruit & veg turned into wholesome salads, juices & soups. Hand crafted and made from scratch, right down to our almond & soy milk.",
+    "url": "http://www.simpleseedeatery.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9929183,
+      "lat": -37.8375439
+    }
   }
 ]
