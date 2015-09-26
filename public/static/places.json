@@ -1162,5 +1162,17 @@
       "lng": 144.9929183,
       "lat": -37.8375439
     }
+  },
+  {
+    "name": "From The Art: Ethical Handicrafts & Café",
+    "address": "1/3 Yertchuk Avenue, Burwood East, VIC 3151",
+    "phoneNumber": "+61 3 9807 5158",
+    "description": "Social enterprise selling organic fair trade coffee and tea, local vegan and vegetarian dishes, and hand-crafted gifts. Supports local causes by employing asylum seekers and using suppliers working to end youth homelessness in Melbourne.",
+    "url": "https://www.facebook.com/FromTheArtMelbourne",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.106459,
+      "lat": -37.860563
+    }
   }
 ]
