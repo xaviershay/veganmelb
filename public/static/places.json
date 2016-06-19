@@ -1174,5 +1174,17 @@
       "lng": 145.106459,
       "lat": -37.860563
     }
+  },
+  {
+    "name": "Isher Eggless",
+    "address": "134 Carinish Rd, Clayton, VIC 3168",
+    "phoneNumber": "+61 3 9543 5470",
+    "description": "Vegetarian bakery selling cakes, cupcakes, muffins, rolls, sandwichs, biscuits, pizzas and more!",
+    "url": "http://www.isher.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.120394,
+      "lat": -37.9241742
+    }
   }
 ]
