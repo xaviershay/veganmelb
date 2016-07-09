@@ -1186,5 +1186,17 @@
       "lng": 145.120394,
       "lat": -37.9241742
     }
+  },
+  {
+    "name": "Urban Projuice",
+    "address": "315 Montague St, Albert Park, VIC 3206",
+    "phoneNumber": "+61 3 9696 0048",
+    "description": "Wholefood cafe and juice bar.",
+    "url": "https://www.facebook.com/urbanprojuice/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.955758,
+      "lat": -37.840223
+    }
   }
 ]
