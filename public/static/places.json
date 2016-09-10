@@ -1198,5 +1198,16 @@
       "lng": 144.955758,
       "lat": -37.840223
     }
+  },
+  {
+    "name": "Serotonin Eatery",
+    "address": "52 Madden Grove, Burnley, VIC 3121",
+    "description": "The Serotonin Eatery is a plant-based cafe providing foods that regulate neurotransmitters and hormone activity within our bodies, keeping our mood and gut happy.",
+    "url": "https://www.serotonindealer.com",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.009081,
+      "lat": -37.828205
+    }
   }
 ]
