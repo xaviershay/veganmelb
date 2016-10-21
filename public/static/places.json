@@ -1209,5 +1209,16 @@
       "lng": 145.009081,
       "lat": -37.828205
     }
+  },
+  {
+    "name": "Polly",
+    "address": "401 Brunswick St, Fitzroy, VIC 3065",
+    "description": "Cocktail bar that's gone to a lot of effort to ensure a large portion of their drink menu is vegan, along with some good food options.",
+    "url": "http://www.pollybar.com.au/",
+    "type": "Bar",
+    "location": {
+      "lng": 144.9786958,
+      "lat": -37.7950714
+    }
   }
 ]
