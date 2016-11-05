@@ -1220,5 +1220,16 @@
       "lng": 144.9786958,
       "lat": -37.7950714
     }
+  },
+  {
+    "name": "Lakshmi Vilas Vegetarian Cafe",
+    "address": "Shop 5, 31 Pulteney Street, Dandenong, VIC 3175",
+    "description": "Indian vegetarian cuisine, serving Melbourne for over 20 years. Cooked fresh daily, with made to order dosas. Most dishes are vegan, or can be made so.",
+    "url": "http://www.lakshmivilas.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.272123,
+      "lat": -37.983734
+    }
   }
 ]
