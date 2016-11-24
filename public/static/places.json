@@ -1231,5 +1231,16 @@
       "lng": 145.272123,
       "lat": -37.983734
     }
+  },
+  {
+    "name": "Passionfoods Organic",
+    "address": "219 Ferrars St, South Melbourne, VIC 3205",
+    "description": "Oldest organic store in Melbourne. Large selection of organic fruit, vegetables, and vegan and raw staples.",
+    "url": "http://passionfoods.com.au/",
+    "type": "Market",
+    "location": {
+      "lng": 144.955269,
+      "lat": -37.833175
+    }
   }
 ]
