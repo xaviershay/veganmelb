@@ -8,6 +8,7 @@ b { font-weight: 600}
 #column {
 width: 750px; margin: 0 auto; position: relative;
   background-color: white;
+  padding-bottom: 0.5em;
 }
 abbr, article, aside, canvas, figure, footer, header, hgroup, nav, section { display: block; }
 
