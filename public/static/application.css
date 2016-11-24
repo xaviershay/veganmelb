@@ -30,7 +30,7 @@ header {
 header h1 {
   position: absolute;
   top: 20px;
-  
+
   color: white;
   width: 98%;
   padding-left: 2%;
@@ -110,7 +110,7 @@ ol {
   background-color: rgba(0,0,0,0.8);
   font-size: 80%;
 }
-  
+
 #availability article a, #availability article a:visited {
   color: white;
 }
