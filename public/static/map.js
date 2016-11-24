@@ -1,5 +1,5 @@
 $(function() {
-  $(window).unload( function () { GUnload(); } );
+  //$(window).unload( function () { GUnload(); } );
   var melbourne = new google.maps.LatLng(-37.813611, 144.963056);
   var mapOptions = {
     zoom: 11,
@@ -17,22 +17,22 @@ $(function() {
       var place = this;
       var point = new google.maps.LatLng(place.location.lat, place.location.lng);
       var icons = {
-        'Bar':        "/static/bar.png",
-        'Restaurant': "http://google-maps-icons.googlecode.com/files/restaurant.png",
-        'Shopping':   "http://google-maps-icons.googlecode.com/files/supermarket.png",
-        'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",
-        'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
-        'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
-        'Market':     "http://google-maps-icons.googlecode.com/files/market.png",
-        'Veterinary':   "/static/veterinary.png",
-        'Hair Dresser': '/static/barber.png',
-        'Beauty':       '/static/beautysalon.png'
+        'Bar':          "bar.png",
+        'Restaurant':   "restaurant.png",
+        'Shopping':     "supermarket.png",
+        'Gift':         "gifts.png",
+        'Fast Food':    "fastfood.png",
+        'Clothing':     "shoes.png",
+        'Market':       "market.png",
+        'Veterinary':   "veterinary.png",
+        'Hair Dresser': 'barber.png',
+        'Beauty':       'beautysalon.png'
       }
       var marker = new google.maps.Marker({
         position: point,
         map:      map,
         title:    place.name,
-        icon:     icons[place.type]
+        icon:     "/static/" + icons[place.type]
       });
       markers.push(marker);
       google.maps.event.addListener(marker, 'click', function() {
@@ -41,7 +41,7 @@ $(function() {
 
         if (currentPlace) {
           info.animate(
-            {right: "-345px"}, 
+            {right: "-345px"},
             {complete: function() {
               if (clickedPlace == currentPlace) {
                 currentPlace = null;
@@ -73,6 +73,9 @@ $(function() {
         }
       });
     });
-    var markerCluster = new MarkerClusterer(map, markers, {gridSize: 25});
+    var markerCluster = new MarkerClusterer(map, markers, {
+      imagePath: '/static/clusterer/m',
+      gridSize: 25
+    });
   });
 });
