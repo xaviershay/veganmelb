@@ -1242,5 +1242,17 @@
       "lng": 144.955269,
       "lat": -37.833175
     }
+  },
+  {
+    "name": "Monique's Hair & Beauty Salon",
+    "address": "21 Pinnacle Way, Plumpton, VIC 3335",
+    "phoneNumber": "0434 220 914",
+    "description": "100% vegan and cruelty free salon",
+    "url": "https://www.facebook.com/moniqueshairandbeautystudio/",
+    "type": "Beauty",
+    "location": {
+      "lng": 144.7253655,
+      "lat": -37.7165356
+    }
   }
 ]
