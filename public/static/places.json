@@ -1254,5 +1254,17 @@
       "lng": 144.7253655,
       "lat": -37.7165356
     }
+  },
+  {
+    "name": "The Milk Bar Cafe",
+    "address": "12 Were St, Montmorency, VIC 3094",
+    "phoneNumber": "(03) 9434 1211",
+    "description": "Vegan options on pretty much everything, amazing custom cakes too.",
+    "url": "https://www.facebook.com/themilkbarcafe/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.121354,
+      "lat": -37.717174
+    }
   }
 ]
