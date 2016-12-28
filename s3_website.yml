@@ -1,0 +1,21 @@
+s3_bucket: veganmelbourne.com.au
+cloudfront_distribution_id: E1CMX0WJ0ZM9M3
+
+site: public
+
+gzip:
+  - .html
+  - .css
+  - .md
+
+s3_reduced_redundancy: true
+
+cloudfront_distribution_config:
+  aliases:
+    quantity: 2
+    items:
+      - veganmelbourne.com.au
+      - www.veganmelbourne.com.au
+
+cloudfront_wildcard_invalidation: true
+cloudfront_invalidate_root: true

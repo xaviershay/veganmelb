@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -xe
+
+# https://github.com/laurilehmijoki/s3_website/issues/253
+# bundle exec s3_website cfg apply
+
+bundle exec s3_website push
