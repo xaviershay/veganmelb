@@ -1266,5 +1266,17 @@
       "lng": 145.121354,
       "lat": -37.717174
     }
+  },
+  {
+    "name": "VGF Burgers",
+    "address": "283 Bank Pl, South Melbourne, 3205",
+    "phoneNumber": "0475 423 641",
+    "description": "Healthy organic vegan gluten free burgers, delivered.",
+    "url": "https://www.facebook.com/veganglutenfreeburgers/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9557842,
+      "lat": -37.8358614
+    }
   }
 ]
