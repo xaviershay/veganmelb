@@ -1278,5 +1278,17 @@
       "lng": 144.9557842,
       "lat": -37.8358614
     }
+  },
+  {
+    "name": "Mantra Lounge",
+    "address": "167 Grattan St, Carlton, 3053",
+    "phoneNumber": "03 9036 2996",
+    "description": "All kinds of amazing vegan food. Best vegan lasagna in Melbourne!",
+    "url": "https://www.facebook.com/mantraloungemelbourne/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9633026,
+      "lat": -37.8005737
+    }
   }
 ]
