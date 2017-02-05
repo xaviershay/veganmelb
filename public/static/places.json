@@ -1290,5 +1290,16 @@
       "lng": 144.9633026,
       "lat": -37.8005737
     }
+  },
+  {
+    "name": "What Do You Say Cafe",
+    "address": "593B Gilbert Road, Preston, 3072",
+    "phoneNumber": "0452 393 874",
+    "description": "Not all vegan but a decent number of Mediterranean options.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9913135,
+      "lat": -37.7295027
+    }
   }
 ]
