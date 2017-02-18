@@ -1301,5 +1301,49 @@
       "lng": 144.9913135,
       "lat": -37.7295027
     }
+  },
+  {
+    "name": "Grill'd",
+    "address": "QV, Level 2, Cnr Swanston & Lonsdale Street, Melbourne, 3000",
+    "phoneNumber": "03 9663 0399",
+    "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.965027,
+      "lat": -37.810973
+    }
+  },
+  {
+    "name": "Grill'd",
+    "address": "15 Degraves Street, Melbourne, 3000",
+    "phoneNumber": "03 9654 7666",
+    "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9656475,
+      "lat": -37.8177641
+    }
+  },
+  {
+    "name": "Grill'd",
+    "address": "Southern Cross Station, Ground Floor, Collins Street Entrance, Melbourne, 3000",
+    "phoneNumber": "03 9670 4100",
+    "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9527755,
+      "lat": -37.8182848
+    }
+  },
+  {
+    "name": "Grill'd",
+    "address": "350 Lygon St, Carlton, 3053",
+    "phoneNumber": "03 9347 1666",
+    "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.967529,
+      "lat": -37.798874
+    }
   }
 ]
