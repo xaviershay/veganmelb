@@ -1345,5 +1345,16 @@
       "lng": 144.967529,
       "lat": -37.798874
     }
+  },
+  {
+    "name": "Oneworld Knox",
+    "address": "Shop 2223, Knox Ozone, 425 Burwood Hwy, Wantirna South 3152",
+    "phoneNumber": "03 9801 8962",
+    "description": "Large vegan fusion menu, everything from pasta to fajitas to dhal.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.2383111,
+      "lat": -37.8696555
+    }
   }
 ]
