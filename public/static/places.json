@@ -1356,5 +1356,16 @@
       "lng": 145.2383111,
       "lat": -37.8696555
     }
+  },
+  {
+    "name": "Hahndorf's Fine Chocolates",
+    "address": "81 Bluff Rd, Black Rock 3193",
+    "phoneNumber": "03 9533 1575",
+    "description": "Not all vegan, but do have cakes, milkshakes, hot chocolates and gelato available.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0171429,
+      "lat": -37.9697332
+    }
   }
 ]
