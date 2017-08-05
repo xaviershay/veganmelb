@@ -1367,5 +1367,16 @@
       "lng": 145.0171429,
       "lat": -37.9697332
     }
+  },
+  {
+    "name": "Earth To Betty Eco Salon",
+    "address": "191 Union Rd, Ascot Vale, 3032",
+    "phoneNumber": "(03) 9375 3607",
+    "description": "Hair Salon where all products (including colours) have been carefully selected to be 100% vegan friendly and as organic as possible. Also uses recyclable foil, biodegradable towels, green power, and recycles 95% of waste.",
+    "type": "Beauty",
+    "location": {
+      "lng": 144.915701,
+      "lat": -37.77323
+    }
   }
 ]
