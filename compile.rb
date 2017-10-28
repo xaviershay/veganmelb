@@ -7,6 +7,11 @@ require 'json'
 require 'geocoder'
 require 'addressable/uri'
 
+Geocoder.configure(
+  api_key:   File.read("google-api-key").chomp,
+  use_https: true
+)
+
 def geocode(places)
   places.map do |place|
     unless place['location']

@@ -10,7 +10,8 @@ Add to the appopriate `CSV` in `data/`, then run :
     bundle exec ruby compile.rb
 
 For places, put the directly into `public/static/places.json` without location,
-and the next compile will geocode it.
+and the next compile will geocode it. A Google Geocoder API key will need to be
+placed in a `google-api-key` file.
 
 Map icons from https://mapicons.mapsmarker.com/
 

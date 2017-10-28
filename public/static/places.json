@@ -1371,12 +1371,34 @@
   {
     "name": "Earth To Betty Eco Salon",
     "address": "191 Union Rd, Ascot Vale, 3032",
-    "phoneNumber": "(03) 9375 3607",
+    "phoneNumber": "03 9375 3607",
     "description": "Hair Salon where all products (including colours) have been carefully selected to be 100% vegan friendly and as organic as possible. Also uses recyclable foil, biodegradable towels, green power, and recycles 95% of waste.",
     "type": "Beauty",
     "location": {
       "lng": 144.915701,
       "lat": -37.77323
+    }
+  },
+  {
+    "name": "One Tiny Jungle",
+    "address": "Shop 1/100 Union Rd Ascot Vale, VIC 3032",
+    "phoneNumber": "03 9191 0055",
+    "description": "One Tiny Jungle is a plant based concept store offering a cultivated range of indoor plants, pots, vegan skincare, beauty products, gifts, treats and home decor.",
+    "type": "Shopping",
+    "location": {
+      "lng": 144.915577,
+      "lat": -37.776637
+    }
+  },
+  {
+    "name": "Kooks Kitchen",
+    "address": "6/111 Cecil St, South Melbourne, VIC 3205",
+    "phoneNumber": "0402 856 022",
+    "description": "Specializing in vegan friendly gourmet salads, soups and cold pressed juices using Australia’s best seasonal produce.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9573691,
+      "lat": -37.83085500000001
     }
   }
 ]
