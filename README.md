@@ -5,9 +5,9 @@ Source code for https://veganmelbourne.com.au
 
 ## Adding new data
 
-Add to the appopriate `CSV` in `data/`, then run :
+Add to the appopriate `CSV` in `data/`, then run:
 
-    bundle exec ruby compile.rb
+    bin/compile
 
 For places, put the directly into `public/static/places.json` without location,
 and the next compile will geocode it. A Google Geocoder API key will need to be
