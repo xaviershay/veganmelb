@@ -1347,6 +1347,13 @@
     }
   },
   {
+    "name": "Grill'd",
+    "address": "127-133 Swan St, Richmond, VIC 3121",
+    "phoneNumber": "03 9421 1100",
+    "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
+    "type": "Restaurant"
+  },
+  {
     "name": "Oneworld Knox",
     "address": "Shop 2223, Knox Ozone, 425 Burwood Hwy, Wantirna South 3152",
     "phoneNumber": "03 9801 8962",
@@ -1400,5 +1407,29 @@
       "lng": 144.9573691,
       "lat": -37.83085500000001
     }
+  },
+  {
+    "name": "Laneway Greens",
+    "address": "89a Swan Street, Richmond, VIC 3143",
+    "phoneNumber": "03 9428 3453",
+    "description": "Fresh, seasonal, honest food. Excellent smoothies.",
+    "url": "https://www.lanewaygreens.com.au/",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Laneway Greens",
+    "address": "2/242 Flinders Lane, Melbourne, VIC 3000",
+    "phoneNumber": "03 9639 0619",
+    "description": "Fresh, seasonal, honest food. Excellent smoothies.",
+    "url": "https://www.lanewaygreens.com.au/",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Waratah Organics",
+    "address": "1224 Burwood Hwy, Upper Ferntree Gully, VIC 3156",
+    "phoneNumber": "03 8719 5982",
+    "description": "Organic juice bar and vegetarian cafe.",
+    "url": "http://www.waratahorganics.com.au/",
+    "type": "Restaurant"
   }
 ]
