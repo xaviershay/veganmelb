@@ -1351,7 +1351,11 @@
     "address": "127-133 Swan St, Richmond, VIC 3121",
     "phoneNumber": "03 9421 1100",
     "description": "Not exclusively vegan but good burger and chips options. Also, beer.",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9954138,
+      "lat": -37.82524009999999
+    }
   },
   {
     "name": "Oneworld Knox",
@@ -1414,7 +1418,11 @@
     "phoneNumber": "03 9428 3453",
     "description": "Fresh, seasonal, honest food. Excellent smoothies.",
     "url": "https://www.lanewaygreens.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9937242,
+      "lat": -37.82505020000001
+    }
   },
   {
     "name": "Laneway Greens",
@@ -1422,7 +1430,11 @@
     "phoneNumber": "03 9639 0619",
     "description": "Fresh, seasonal, honest food. Excellent smoothies.",
     "url": "https://www.lanewaygreens.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9660201,
+      "lat": -37.8166357
+    }
   },
   {
     "name": "Waratah Organics",
@@ -1430,7 +1442,11 @@
     "phoneNumber": "03 8719 5982",
     "description": "Organic juice bar and vegetarian cafe.",
     "url": "http://www.waratahorganics.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.3104611,
+      "lat": -37.8938187
+    }
   },
   {
     "name": "Nutrition Bar",
@@ -1438,7 +1454,11 @@
     "phoneNumber": "03 9995 4329",
     "description": "Smoothies, acai bowls and vegan snacks.",
     "url": "http://www.nutritionbar.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.995232,
+      "lat": -37.825213
+    }
   },
   {
     "name": "Nutrition Bar",
@@ -1446,13 +1466,21 @@
     "phoneNumber": "03 9043 6837",
     "description": "Smoothies, acai bowls and vegan snacks.",
     "url": "http://www.nutritionbar.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9934307,
+      "lat": -37.852494
+    }
   },
   {
     "name": "Nutrition Bar",
     "address": "Shop 8, 417 St Kilda Rd, Melbourne, VIC 3004",
     "description": "Smoothies, acai bowls and vegan snacks.",
     "url": "http://www.nutritionbar.com.au/",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.97706,
+      "lat": -37.8377251
+    }
   }
 ]
