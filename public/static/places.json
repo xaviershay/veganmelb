@@ -1482,5 +1482,16 @@
       "lng": 144.97706,
       "lat": -37.8377251
     }
+  },
+  {
+    "name": "Dahlia Beauty",
+    "address": "Shop 16, 19-23 Arabin Street, Keilor, VIC 3036",
+    "description": "Vegan beauty salon, specializing in waxing hair removal, mani- and pedicures, lash & brow enhancement, facials and more.",
+    "url": "https://dahliabeauty.com.au",
+    "type": "Beauty",
+    "location": {
+      "lng": 144.8358716,
+      "lat": -37.7186075
+    }
   }
 ]
