@@ -1493,5 +1493,115 @@
       "lng": 144.8358716,
       "lat": -37.7186075
     }
+  },
+  {
+    "name": "San Churro",
+    "address": "175 Lygon St, Carlton, VIC 3053",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9664539,
+      "lat": -37.8015534
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Chadstone Shopping Centre Shop F019-21, 1341 Dandenong Rd, Malvern East, VIC 3145",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0829501,
+      "lat": -37.88627719999999
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Pacific Epping Tenancy R6, Cnr High St & Cooper St, Epping, VIC 3076",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0197558,
+      "lat": -37.6530322
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Westfield Fountain Gate (Shop 1121A), 352 Princes Highway Narre Warren, VIC 3805",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.3028612,
+      "lat": -38.018241
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Shop 1104 - Level 1, Highpoint Shopping Centre, 200 Rosamond Road Maribyrnong, VIC 3032",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.8890653,
+      "lat": -37.7739205
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Tenancy Number 3110a, Knox City Shopping Centre, 425 Burwood Hwy Wantirna South, VIC 3152",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.2413745,
+      "lat": -37.8690555
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Westfield Plenty Valley Tenancy R07, 415 McDonalds Rd Mill Park, VIC 3082",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0716651,
+      "lat": -37.6513332
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Shop LTL 255, QV Centre, Swanston Street Melbourne, VIC 3000",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.964627,
+      "lat": -37.810583
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Shop 168, Watergardens Town Centre, 399 Melton Hwy Taylors Lakes, VIC 3038",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.7758153,
+      "lat": -37.6992631
+    }
+  },
+  {
+    "name": "San Churro",
+    "address": "Tenancy RE-03, Werribee Plaza Shopping Centre, Cnr Heaths Rd and Derrimut Rd Werribee, VIC 3030",
+    "description": "Fresh to order churros. The dark chocolate options are vegan.",
+    "url": "http://www.sanchurro.com/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.679659,
+      "lat": -37.875213
+    }
   }
 ]
