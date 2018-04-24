@@ -1603,5 +1603,16 @@
       "lng": 144.679659,
       "lat": -37.875213
     }
+  },
+  {
+    "name": "Antaria Lash & Brows",
+    "address": "141 Mountain Hwy, Wantirna, VIC 3152",
+    "description": "Specialist in delivering beautiful, natural looking microbladed eyebrows, creating featherstroke, hairstroke, ombré & powder brows. All vegan products.",
+    "url": "https://www.antariabrows.com/",
+    "type": "Beauty",
+    "location": {
+      "lng": 145.216427,
+      "lat": -37.8539683
+    }
   }
 ]
