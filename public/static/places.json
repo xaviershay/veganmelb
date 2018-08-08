@@ -1614,5 +1614,17 @@
       "lng": 145.216427,
       "lat": -37.8539683
     }
+  },
+  {
+    "name": "Vegan Market of Melbourne",
+    "location": {
+      "lng": "145.005",
+      "lat": "-37.803"
+    },
+    "address": "Abbotsford Convent - 1 St Heliers Street, Abbotsford.",
+    "phoneNumber": "",
+    "description": "A monthly vegan market, on the first Saturday of each month.",
+    "url": "https://www.facebook.com/Veganmm/",
+    "type": "Market"
   }
 ]
