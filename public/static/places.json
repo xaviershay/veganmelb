@@ -1626,5 +1626,13 @@
     "description": "A monthly vegan market, on the first Saturday of each month.",
     "url": "https://www.facebook.com/Veganmm/",
     "type": "Market"
+  },
+  {
+    "name": "That Vegan Hairdresser",
+    "address": "129 Princes Way, Drouin, VIC 3818",
+    "phoneNumber": "(03) 5625 5203",
+    "description": "A 100% vegan concept salon with no animal products in any of our products or complimentary beverages with an eye for environmental sustainability.",
+    "url": "https://www.thatveganhairdresser.com/",
+    "type": "Beauty"
   }
 ]
