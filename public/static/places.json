@@ -1633,6 +1633,10 @@
     "phoneNumber": "(03) 5625 5203",
     "description": "A 100% vegan concept salon with no animal products in any of our products or complimentary beverages with an eye for environmental sustainability.",
     "url": "https://www.thatveganhairdresser.com/",
-    "type": "Beauty"
+    "type": "Beauty",
+    "location": {
+      "lng": 145.8549891,
+      "lat": -38.1348254
+    }
   }
 ]
