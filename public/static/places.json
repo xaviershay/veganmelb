@@ -1413,6 +1413,17 @@
     }
   },
   {
+    "name": "Kooks Kitchen",
+    "address": "Shop 16, 163 Commercial Rd South Yarra Vic, 3141",
+    "phoneNumber": "0402 856 022",
+    "description": "Specializing in vegan friendly gourmet salads, soups and cold pressed juices using Australia’s best seasonal produce.",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9925856,
+      "lat": -37.8460286
+    }
+  },
+  {
     "name": "Laneway Greens",
     "address": "89a Swan Street, Richmond, VIC 3143",
     "phoneNumber": "03 9428 3453",
