@@ -1649,5 +1649,17 @@
       "lng": 145.8549891,
       "lat": -38.1348254
     }
+  },
+  {
+    "name": "Vegan Shack",
+    "address": "264 Swan Street RIchmond, VIC 3121",
+    "phoneNumber": "",
+    "description": "Sandwiches, burgers, pastries, desserts, smoothies, weekend breakfast.",
+    "url": "https://www.theveganshack.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9990412,
+      "lat": -37.825972
+    }
   }
 ]
