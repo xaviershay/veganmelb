@@ -1661,5 +1661,17 @@
       "lng": 144.9990412,
       "lat": -37.825972
     }
+  },
+  {
+    "name": "Home Pressed Juices",
+    "address": "9/720 Bourke Street, Docklands, VIC 3008",
+    "phoneNumber": "1300 464 729",
+    "description": "Fresh cold-pressed juices, smoothies, salads and raw desserts. Juice cleanses.",
+    "url": "https://homejuice.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9490524,
+      "lat": -37.8179592
+    }
   }
 ]
