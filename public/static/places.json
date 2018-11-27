@@ -343,7 +343,7 @@
     },
     "address": "41 Blessington Street, St Kilda.",
     "phoneNumber": "",
-    "description": "",
+    "description": "Global, organic vegetarian and vegan food based on a 'pay as you feel' philosophy. You serve yourself from bain maries. Dishes include curries, stir fries and pasta. Dishes are labelled if they are vegetarian or vegan.",
     "url": "http://www.lentilasanything.com",
     "type": "Restaurant"
   },
@@ -370,6 +370,18 @@
     "description": "Global, organic vegetarian and vegan food based on a 'pay as you feel' philosophy. You serve yourself from bain maries. Dishes include curries, stir fries and pasta. Dishes are labelled if they are vegetarian or vegan.",
     "url": "http://www.lentilasanything.com",
     "type": "Restaurant"
+  },
+  {
+    "name": "Lentil As Anything",
+    "address": "562-564 High St, Thornbury VIC 3071, Australia",
+    "phoneNumber": "0406 101 181",
+    "description": "Global, organic vegetarian and vegan food based on a 'pay as you feel' philosophy. You serve yourself from bain maries. Dishes include curries, stir fries and pasta. Dishes are labelled if they are vegetarian or vegan.",
+    "url": "http://www.lentilasanything.com",
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0001016,
+      "lat": -37.762861
+    }
   },
   {
     "name": "Lord of the Fries",
