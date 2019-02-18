@@ -1685,5 +1685,17 @@
       "lng": 144.9490524,
       "lat": -37.8179592
     }
+  },
+  {
+    "name": "The Suit Concierge",
+    "address": "214 Bridge Road, Richmond, VIC 3121",
+    "phoneNumber": "0478 119 300",
+    "description": "Custom made suits, can accomodate vegan (e.g. no wool)",
+    "url": "https://www.thesuitconcierge.com",
+    "type": "Shopping",
+    "location": {
+      "lng": 144.997842,
+      "lat": -37.818616
+    }
   }
 ]
