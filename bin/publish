@@ -5,4 +5,4 @@ set -xe
 # https://github.com/laurilehmijoki/s3_website/issues/253
 # bundle exec s3_website cfg apply
 
-bundle exec s3_website push
+PATH=/usr/lib/jvm/java-8-openjdk-amd64/bin/:$PATH bundle exec s3_website push
