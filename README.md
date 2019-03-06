@@ -25,3 +25,9 @@ Map icons from https://mapicons.mapsmarker.com/
 Ensure AWS credentials are in `.env`, then:
 
     bin/publish
+
+`.env` should look like the following, with credentials that can be generated
+frmo IAM Users in AWS Console:
+
+    AWS_ACCESS_KEY_ID=somekey
+    AWS_SECRET_ACCESS_KEY=arst
