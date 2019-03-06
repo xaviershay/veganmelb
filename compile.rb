@@ -16,7 +16,10 @@ def geocode(places)
   places.map do |place|
     unless place['location']
       res = Geocoder.search(place['address'] + ", Australia", :bias => 'au')
-      raise "Could not geocode #{place['name']}" unless res.any?
+      if res.empty?
+        puts res.inspect
+        raise "Could not geocode #{place['name']}"
+      end
       res = res.first
       place['location'] = {
         lng: res.longitude,

@@ -1733,5 +1733,20 @@
       "lng": 144.9789573,
       "lat": -37.7969339
     }
+  },
+    "name": "Rococo",
+    "address": "85 Acland Street, St Kilda, VIC 3182",
+    "phoneNumber": "(03) 9525 3232",
+    "description": "Classic Italian restaurant with full vegan menu.",
+    "url": "http://http://www.rococo.net.au",
+    "type": "Restaurant"
+  },
+  {
+    "name": "Rococo",
+    "address": "797 Glenferrie Rd, Hawthorn, VIC 3122",
+    "phoneNumber": "(03) 9525 3232",
+    "description": "Classic Italian restaurant with full vegan menu.",
+    "url": "http://http://www.rococo.net.au",
+    "type": "Restaurant"
   }
 ]
