@@ -1739,7 +1739,11 @@
     "phoneNumber": "(03) 9525 3232",
     "description": "Classic Italian restaurant with full vegan menu.",
     "url": "http://http://www.rococo.net.au",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.978854,
+      "lat": -37.86790999999999
+    }
   },
   {
     "name": "Rococo",
@@ -1747,6 +1751,10 @@
     "phoneNumber": "(03) 9525 3232",
     "description": "Classic Italian restaurant with full vegan menu.",
     "url": "http://http://www.rococo.net.au",
-    "type": "Restaurant"
+    "type": "Restaurant",
+    "location": {
+      "lng": 145.0363032,
+      "lat": -37.8164053
+    }
   }
 ]
