@@ -26,7 +26,8 @@ $(function() {
         'Market':       "market.png",
         'Veterinary':   "veterinary.png",
         'Hair Dresser': 'barber.png',
-        'Beauty':       'beautysalon.png'
+        'Beauty':       'beautysalon.png',
+        'Wellness':     'yoga.png'
       }
       var marker = new google.maps.Marker({
         position: point,

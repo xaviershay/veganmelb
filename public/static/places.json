@@ -1697,5 +1697,29 @@
       "lng": 144.997842,
       "lat": -37.818616
     }
+  },
+  {
+    "name": "Yin Energy Balance",
+    "address": "3 Besley St, Dandenong, VIC 3175",
+    "phoneNumber": "0409 163 226",
+    "description": "Reconnecting you to your body through Yoga, Massage and Embodiment Coaching.",
+    "url": "https://www.yinenergybalance.com/",
+    "type": "Wellness",
+    "location": {
+      "lng": 145.2251655,
+      "lat": -37.987388
+    }
+  },
+  {
+    "name": "Yin Energy Balance",
+    "address": "1/163 Glenferrie Rd, Malvern, VIC 3144",
+    "phoneNumber": "0409 163 226",
+    "description": "Reconnecting you to your body through Yoga, Massage and Embodiment Coaching.",
+    "url": "https://www.yinenergybalance.com/",
+    "type": "Wellness",
+    "location": {
+      "lng": 145.0284206,
+      "lat": -37.8606481
+    }
   }
 ]
