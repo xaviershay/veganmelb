@@ -1721,5 +1721,17 @@
       "lng": 145.0284206,
       "lat": -37.8606481
     }
+  },
+  {
+    "name": "Euro Kitchen Vegan Café & Restaurant",
+    "address": "100 Kerr Street, Fitzroy, VIC 3065",
+    "phoneNumber": "0417 678 585",
+    "description": "Traditional European dishes from various countries, all done 100% vegan.",
+    "url": "https://www.facebook.com/Euro.Kitchen.Vegan",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9789573,
+      "lat": -37.7969339
+    }
   }
 ]
