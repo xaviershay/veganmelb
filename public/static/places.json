@@ -24,18 +24,6 @@
     "type": "Gift"
   },
   {
-    "name": "Vegan Wares",
-    "location": {
-      "lng": 144.9833086,
-      "lat": -37.8059656
-    },
-    "address": "78 Smith Street, Collingwood",
-    "phoneNumber": "",
-    "description": "Vegan footware and accessories: shoes, belts, and wallets.",
-    "url": "http://veganwares.com",
-    "type": "Clothing"
-  },
-  {
     "name": "Vic Market",
     "location": {
       "lng": 144.9607643,
