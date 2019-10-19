@@ -1756,5 +1756,16 @@
       "lng": 144.978698,
       "lat": -37.795795
     }
+  },
+  {
+    "name": "HOME Vegan Bar",
+    "address": "Shop 4/699 Collins St, Docklands, VIC 3008",
+    "description": "Cold pressed juice, smoothies, raw breakfasts, salads, soups, desserts. All vegan!",
+    "url": "https://www.instagram.com/homeveganbar/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9513513,
+      "lat": -37.8202184
+    }
   }
 ]
