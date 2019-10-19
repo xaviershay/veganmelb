@@ -2,6 +2,9 @@
 
 set -xe
 
+# Verify JSON isn't busted
+ruby -rjson -e 'JSON.parse(File.read("public/static/places.json"))'
+
 # https://github.com/laurilehmijoki/s3_website/issues/253
 # bundle exec s3_website cfg apply
 
