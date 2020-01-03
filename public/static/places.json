@@ -717,7 +717,7 @@
     "phoneNumber": "(03) 9830 4035",
     "description": "Riversdale Hairworks is a new salon with all of your hairdressing needs. Including cuts, colour, perms, straightening services etc. We use only De Lorenzo products, which are all vegan, plant-based, and made in Australia. All ingredients are also sourced in Australia.",
     "url": "http://www.facebook.com/RiversdaleHairworks",
-    "type": "Hair Dresser"
+    "type": "Beauty"
   },
   {
     "name": "Savvy Organic Pizza & Gelato",
@@ -1766,6 +1766,17 @@
     "location": {
       "lng": 144.9513513,
       "lat": -37.8202184
+    }
+  },
+  {
+    "name": "Hair, Yeah?",
+    "address": "327 Smith St, Fitzroy 3065",
+    "description": "All vegan hair salon",
+    "url": "https://www.facebook.com/HairYeahSalon/",
+    "type": "Beauty",
+    "location": {
+      "lng": 144.984043,
+      "lat": -37.799293
     }
   }
 ]
