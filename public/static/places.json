@@ -1778,5 +1778,16 @@
       "lng": 144.984043,
       "lat": -37.799293
     }
+  },
+  {
+    "name": "Vegie Tribe",
+    "address": "34-36 Little La Trobe Street, Melbourne 3000",
+    "description": "Pay-by-weight plant-based all you can eat buffet.",
+    "url": "https://vegietribe.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.9625898,
+      "lat": -37.8093191
+    }
   }
 ]
