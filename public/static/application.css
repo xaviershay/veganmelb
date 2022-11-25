@@ -35,7 +35,7 @@ header h1 {
   color: white;
   width: 98%;
   padding-left: 2%;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(0,0,0,0.7);
 }
 header a {
   text-decoration: none;
@@ -45,6 +45,10 @@ section {
   font-family: georgia;
   margin: 10px;
   }
+section#banner {
+  font-size: 120%;
+  background-color: #b3ff99;
+}
 
 section#intro {
   font-size: 120%;
