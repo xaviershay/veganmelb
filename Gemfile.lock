@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.1)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     aws-eventstream (1.2.0)
     aws-sdk (2.11.632)
       aws-sdk-resources (= 2.11.632)
@@ -21,7 +21,7 @@ GEM
     dotenv (1.0.2)
     geocoder (1.8.0)
     jmespath (1.6.1)
-    public_suffix (5.0.0)
+    public_suffix (6.0.2)
     s3_website (3.4.0)
       colored (= 1.2)
       configure-s3-website (= 2.3.0)
